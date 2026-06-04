@@ -1,0 +1,49 @@
+import Link from "next/link";
+
+export function Footer() {
+  return (
+    <footer className="section footer-shell">
+      <div className="page-shell">
+        <div className="footer-top card">
+          <div className="grid footer-grid" style={{ gridTemplateColumns: "2fr 1fr 1fr 1fr", gap: 24 }}>
+            <div>
+              <span className="premium-category-accent">Beyond Expertise</span>
+              <h3 style={{ marginTop: 14 }}>Plateforme de formation premium, catalogue expert et socle LMS evolutif.</h3>
+              <p className="section-copy">
+                Une structure pensée pour les organismes de formation modernes et les entreprises qui veulent accélérer les compétences critiques sur la data, l'IA, le pilotage et la transformation.
+              </p>
+              <div className="footer-tags">
+                {["Data & BI", "AI & Copilot", "PMO & Agile", "Business Analysis"].map((item) => (
+                  <span key={item} className="trust-pill">{item}</span>
+                ))}
+              </div>
+            </div>
+            <div>
+              <h4>Catalogue</h4>
+              <p><Link href="/formations">Catalogue</Link></p>
+              <p><Link href="/expertises">Expertises</Link></p>
+              <p><Link href="/ressources">Ressources</Link></p>
+              <p><Link href="/devis">Demander un devis</Link></p>
+            </div>
+            <div>
+              <h4>Plateforme</h4>
+              <p><Link href="/espace">Espace client</Link></p>
+              <p><Link href="/apprenant">LMS</Link></p>
+              <p><Link href="/admin/commercial">Back-office commercial</Link></p>
+            </div>
+            <div>
+              <h4>Entreprise</h4>
+              <p><Link href="/a-propos">À propos</Link></p>
+              <p><Link href="/methodologie">Méthodologie</Link></p>
+              <p><Link href="/contact">Contact</Link></p>
+            </div>
+          </div>
+        </div>
+        <div className="footer-bottom">
+          <span>© 2026 Beyond Expertise</span>
+          <span>Catalogue premium | Tunnel commercial | LMS | EdTech-ready</span>
+        </div>
+      </div>
+    </footer>
+  );
+}

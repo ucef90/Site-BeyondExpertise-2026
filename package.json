@@ -1,0 +1,32 @@
+{
+  "name": "beyond-expertise-platform",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@10.0.0",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "format": "prettier --write .",
+    "db:generate": "prisma generate",
+    "db:migrate": "prisma migrate dev",
+    "db:seed": "tsx prisma/seed.ts",
+    "catalog:plb:crawl": "tsx scripts/import-plb-catalog.ts --crawl-only",
+    "catalog:plb:import": "tsx scripts/import-plb-catalog.ts --import",
+    "catalog:priority:add": "tsx scripts/add-priority-trainings.ts",
+    "catalog:market:add": "tsx scripts/add-market-demand-trainings.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.5.0",
+    "cheerio": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "prettier": "^3.4.2",
+    "prisma": "^6.5.0",
+    "tsx": "^4.19.2",
+    "turbo": "^2.5.0",
+    "typescript": "^5.8.2"
+  }
+}

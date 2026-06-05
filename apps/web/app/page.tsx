@@ -281,10 +281,14 @@ export default async function HomePage() {
                 Voir nos références
               </Link>
             </div>
-            <div className="home-logos-grid">
-              {clientLogos.map((logo) => (
-                <div key={logo} className="home-logo-item">{logo}</div>
-              ))}
+            <div className="home-logos-marquee">
+              <div className="home-logos-track">
+                {[...clientLogos, ...clientLogos].map((logo, index) => (
+                  <div key={`${logo}-${index}`} className="home-logo-item" aria-hidden={index >= clientLogos.length}>
+                    {logo}
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>

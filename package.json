@@ -14,12 +14,23 @@
     "db:seed": "tsx prisma/seed.ts",
     "catalog:plb:crawl": "tsx scripts/import-plb-catalog.ts --crawl-only",
     "catalog:plb:import": "tsx scripts/import-plb-catalog.ts --import",
+    "catalog:plb:beyond": "tsx scripts/import-plb-beyond.ts",
     "catalog:priority:add": "tsx scripts/add-priority-trainings.ts",
     "catalog:market:add": "tsx scripts/add-market-demand-trainings.ts"
   },
   "dependencies": {
     "@prisma/client": "^6.5.0",
     "cheerio": "^1.2.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@nestjs/core",
+      "@prisma/client",
+      "@prisma/engines",
+      "esbuild",
+      "prisma",
+      "sharp"
+    ]
   },
   "devDependencies": {
     "@playwright/test": "^1.60.0",

@@ -11,305 +11,37 @@
       "url": "https://www.plb.fr/filiere/big-data-bi"
     },
     {
+      "name": "developpement personnel",
+      "slug": "developpement-personnel",
+      "url": "https://www.plb.fr/filiere/developpement-personnel"
+    },
+    {
+      "name": "gestion de projet",
+      "slug": "gestion-de-projet",
+      "url": "https://www.plb.fr/filiere/gestion-de-projet"
+    },
+    {
       "name": "intelligence artificielle",
       "slug": "intelligence-artificielle",
       "url": "https://www.plb.fr/filiere/intelligence-artificielle"
+    },
+    {
+      "name": "developpement",
+      "slug": "developpement",
+      "url": "https://www.plb.fr/filiere/developpement"
+    },
+    {
+      "name": "management si",
+      "slug": "management-si",
+      "url": "https://www.plb.fr/filiere/management-si"
+    },
+    {
+      "name": "microsoft",
+      "slug": "microsoft",
+      "url": "https://www.plb.fr/filiere/microsoft"
     }
   ],
   "trainings": [
-    {
-      "sourceUrl": "https://www.plb.fr/formation/data-mesh",
-      "slug": "dtmh-data-mesh-adopter-le-nouveau-paragdime-de-l-architecture-des-donnees",
-      "title": "Data Mesh : adopter le nouveau paragdime de l'architecture des données",
-      "reference": "DTMH",
-      "categoryName": "data science",
-      "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
-      "format": "ionsDécouvrez PLBVotre",
-      "location": ", l'accent sera mis sur la clarification des enjeux de la gouvernance fédérée computationnelle, lors d'un échange consacré au partage d'expériences des formateurs et apprenant·es.Enfin, nous conclurons avec une feuille de route pour la conduite du changement, la priorisation, les moyens nécessaires, la stratégie et l'exécution, l'organisation et la culture.Programme de la formationObjectifs",
-      "nextSession": "01/06/2026",
-      "priceText": "2 120€ HT",
-      "priceFromCents": 212000,
-      "description": "Cette formation Data Mesh vous permet de comprendre et de mettre en œuvre les grands principes du Data Mesh.",
-      "summary": "Data Mesh : adopter le nouveau paragdime de l'architecture des données permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette formation Data Mesh vous permet de comprendre et de mettre en œuvre les grands principes du Data Mesh.",
-      "audience": "et",
-      "prerequisites": "Aucun.J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Date de mise à jour du",
-      "objectives": [],
-      "programSections": [
-        {
-          "title": "Objectifs de la formation",
-          "bullets": [
-            "S'approprier les principes de découpage et d'agrégation des domaines de données sous forme de Data Product",
-            "Expérimenter les difficultés liées à la donnée, notamment les conséquences d'un périmètre de responsabilité mal défini",
-            "Identifier les besoins des différents acteurs de la data qui justifient l'intérêt du paradigme Data Mesh",
-            "Définir et schématiser les grands principes du Data Mesh",
-            "Se constituer un cadre méthodologique pour accompagner le changement de son organisation vers l'adoption du Data Mesh"
-          ]
-        },
-        {
-          "title": "Contenu du cours Data Mesh",
-          "bullets": []
-        },
-        {
-          "title": "Évolution des architectures",
-          "bullets": []
-        },
-        {
-          "title": "Architecture pour les systèmes de données opérationnels et les systèmes de données analytiques",
-          "bullets": []
-        },
-        {
-          "title": "Domain Driven Ownership",
-          "bullets": []
-        },
-        {
-          "title": "Rappel sur le Domain Driven Design stratégique",
-          "bullets": []
-        },
-        {
-          "title": "Les trois archétypes de Data Domain",
-          "bullets": []
-        },
-        {
-          "title": "Ownership",
-          "bullets": []
-        },
-        {
-          "title": "Data as a product",
-          "bullets": []
-        },
-        {
-          "title": "Le principe de la plateforme self service",
-          "bullets": []
-        },
-        {
-          "title": "Federated Computational Governance",
-          "bullets": []
-        },
-        {
-          "title": "Construire sa feuille de route",
-          "bullets": []
-        },
-        {
-          "title": "Public et prérequis",
-          "bullets": [
-            "Chief Data Officer (CDO)",
-            "Responsable d'équipe ou de pôle Data",
-            "Data analyst",
-            "Data scientist",
-            "Data engineer",
-            "Product Owner",
-            "Architecte logiciel",
-            "Architecte d'entreprise",
-            "Cloud Platform Architect (GCP, AWS, Azure)"
-          ]
-        }
-      ],
-      "seoTitle": "Data Mesh : adopter le nouveau paragdime de l'architecture des données | Beyond Expertise",
-      "seoDescription": "Data Mesh : adopter le nouveau paragdime de l'architecture des données avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. Data Mesh : adopter le nouveau paragdime de l'architecture des données permet de structurer une montée en compétence opér"
-    },
-    {
-      "sourceUrl": "https://www.plb.fr/formation/modelisation-statistique",
-      "slug": "msle-l-essentiel-de-la-modelisation-statistique",
-      "title": "L'essentiel de la modélisation statistique",
-      "reference": "MSLE",
-      "categoryName": "data science",
-      "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
-      "format": "ionsDécouvrez PLBVotre",
-      "location": "xPériode",
-      "nextSession": "29/06/2026",
-      "priceText": "1 590€ HT",
-      "priceFromCents": 159000,
-      "description": "Cette formation Modélisation Statistique permet d&#x27;acquérir l&#x27;essentiel de la modélisation statistique pour l&#x27;analyse descriptive et prévisionnelle.",
-      "summary": "L'essentiel de la modélisation statistique permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette formation Modélisation Statistique permet d&#x27;acquérir l&#x27;essentiel de la modélisation statistique pour l&#x27;analyse descriptive et prévisionnelle.",
-      "audience": "et",
-      "prerequisites": "Pour suivre cette formation Modélisation statistique il est nécessaire d'avoir des connaissances de base en mathématiques et statistiques. Une connaissance de base d'Excel est préférable pour la mise en œuvre de certains TP.J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Date de mise à jour du",
-      "objectives": [],
-      "programSections": [
-        {
-          "title": "Objectifs de la formation",
-          "bullets": [
-            "Connaître les fondamentaux de l’analyse statistique",
-            "Utiliser les formules statistiques descriptives et prédictives",
-            "Calculer des paramètres de position et dispersion (médiane, étendue, quantile, écart-type)",
-            "Créer un rapport d'analyse basé sur les paramètres statistiques",
-            "Exploiter les paramètres statistiques pour comprendre une série de données",
-            "Valider la précision d'une estimation, à l'aide des intervalles de confiance",
-            "Utiliser des outils comme R et Excel pour la mise en œuvre des modèles étudiés",
-            "Chiffre les zones d’incertitude avec des intervalles de confiance",
-            "Créer des modèles de prévisions",
-            "Valider ses modèles avec des tests de validation"
-          ]
-        },
-        {
-          "title": "Contenu du cours Modelisation statistique",
-          "bullets": []
-        },
-        {
-          "title": "Rappels des fondamentaux de la statistique descriptive",
-          "bullets": []
-        },
-        {
-          "title": "Démarche et modélisation d'une analyse statistique",
-          "bullets": []
-        },
-        {
-          "title": "Paramètre de position et de dispersion",
-          "bullets": []
-        },
-        {
-          "title": "Présentation du logiciel « R » et utilisation d’Excel pour la mise en œuvre des modèles étudiés",
-          "bullets": []
-        },
-        {
-          "title": "Tests et intervalle de confiance",
-          "bullets": []
-        },
-        {
-          "title": "Public et prérequis",
-          "bullets": []
-        }
-      ],
-      "seoTitle": "L'essentiel de la modélisation statistique | Beyond Expertise",
-      "seoDescription": "L'essentiel de la modélisation statistique avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. L'essentiel de la modélisation statistique permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiqu"
-    },
-    {
-      "sourceUrl": "https://www.plb.fr/formation/manager-produit-ia",
-      "slug": "iamp-intelligence-artificielle-ia-devenir-manager-de-produits-ia",
-      "title": "Intelligence Artificielle (IA) : Devenir manager de produits IA",
-      "reference": "IAMP",
-      "categoryName": "data science",
-      "level": "x de maturité d'intégration de l'IACas d'étude issus de l'industrieJour 1 - Après-midiDéveloppement et maintenance de produits IAÉtapes de développement de nouveaux produitsSpécificités des produits IA, de la conception au déploiement et à la maintenanceIntégration",
-      "format": "ionsDécouvrez PLBVotre",
-      "location": "Paris",
-      "nextSession": "27/05/2026",
-      "priceText": "1 750€ HT",
-      "priceFromCents": 175000,
-      "description": "Cette formation Manager de produit IA vous apprend à faire évoluer des produits existants en y intégrant l&#x27;IA ou d&#x27;identifier de nouveaux besoins.",
-      "summary": "Intelligence Artificielle (IA) : Devenir manager de produits IA permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette formation Manager de produit IA vous apprend à faire évoluer des produits existants en y intégrant l&#x27;IA ou d&#x27;identifier de nouveaux besoins.",
-      "audience": "et",
-      "prerequisites": "Aucun.J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Date de mise à jour du",
-      "objectives": [],
-      "programSections": [
-        {
-          "title": "Objectifs de la formation",
-          "bullets": [
-            "Reconnaître les concepts, terminologies, spécificités et enjeux de l'IA moderne",
-            "Faire évoluer des produits existants pour y intégrer l'IA et identifier des nouveaux besoins",
-            "Développer et déployer des produits IA selon les meilleures méthodologies",
-            "Activer les leviers de maîtrise des coûts et de croissance et identifier les pièges"
-          ]
-        },
-        {
-          "title": "Contenu du cours Manager produit IA",
-          "bullets": []
-        },
-        {
-          "title": "Fondamentaux de l'IA moderne",
-          "bullets": []
-        },
-        {
-          "title": "Développement et maintenance de produits IA",
-          "bullets": []
-        },
-        {
-          "title": "Commercialisation de produits IA",
-          "bullets": []
-        },
-        {
-          "title": "Développer l'équipe IA / ML",
-          "bullets": []
-        },
-        {
-          "title": "Benchmarking, croissance et coûts",
-          "bullets": []
-        },
-        {
-          "title": "Domaines à fort potentiel de croissance pour les produits IA",
-          "bullets": []
-        },
-        {
-          "title": "Enjeux, limites et bonnes pratiques",
-          "bullets": []
-        },
-        {
-          "title": "Public et prérequis",
-          "bullets": []
-        }
-      ],
-      "seoTitle": "Intelligence Artificielle (IA) : Devenir manager de produits IA | Beyond Expertise",
-      "seoDescription": "Intelligence Artificielle (IA) : Devenir manager de produits IA avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. Intelligence Artificielle (IA) : Devenir manager de produits IA permet de structurer une montée en compétence opérationnelle aut"
-    },
-    {
-      "sourceUrl": "https://www.plb.fr/formation/data-scientist-avance",
-      "slug": "mdsa-data-scientist-niveau-avance",
-      "title": "Data Scientist : niveau avancé",
-      "reference": "MDSA",
-      "categoryName": "data science",
-      "level": "avancé\"}]}FormationsBig Data - BIData ScienceDomaineInformatiqueCertifiantNonOfficielNonFinancementFSETypeCours",
-      "format": "ionsDécouvrez PLBVotre",
-      "location": "xPériode",
-      "nextSession": "04/06/2026",
-      "priceText": "2 500€ HT",
-      "priceFromCents": 250000,
-      "description": "Avec cette formation Data Scientist de niveau avancé, apprenez les techniques de text mining, de normalisation et de deep-learning pour valoriser vos données avec PLB.",
-      "summary": "Data Scientist : niveau avancé permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Avec cette formation Data Scientist de niveau avancé, apprenez les techniques de text mining, de normalisation et de deep-learning pour valoriser vos données avec PLB.",
-      "audience": "et",
-      "prerequisites": "Pour suivre cette formation, il est recommandé d'avoir des connaissances de base en programmation ou en scripting. Il faut également avoir suivi la Formation \"Fondamentaux de la Data Science\" (OFDS) ou avoir les connaissances équivalentes. J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Date de mise à jour du",
-      "objectives": [],
-      "programSections": [
-        {
-          "title": "Objectifs de la formation",
-          "bullets": [
-            "Découvrir et utiliser la puissance prédictive des modèles ensemblistes",
-            "Savoir effectuer un \"feature engineering\" performant",
-            "Appréhender les techniques de text-mining et de deep-learning à travers d'exemples concrets",
-            "Enrichir ses outils de data scientist"
-          ]
-        },
-        {
-          "title": "Contenu du cours Data Scientist avance",
-          "bullets": []
-        },
-        {
-          "title": "Rappel des fondamentaux Data Scientist",
-          "bullets": []
-        },
-        {
-          "title": "Modèles ensemblistes",
-          "bullets": []
-        },
-        {
-          "title": "Introduction au text mining",
-          "bullets": []
-        },
-        {
-          "title": "Feature engineering avancé",
-          "bullets": []
-        },
-        {
-          "title": "Réseaux de neurones et deep learning",
-          "bullets": []
-        },
-        {
-          "title": "Apprentissage semi-supervisé",
-          "bullets": []
-        },
-        {
-          "title": "Rappels et révisions",
-          "bullets": []
-        },
-        {
-          "title": "Mise en pratique",
-          "bullets": []
-        },
-        {
-          "title": "Public et prérequis",
-          "bullets": []
-        }
-      ],
-      "seoTitle": "Data Scientist : niveau avancé | Beyond Expertise",
-      "seoDescription": "Data Scientist : niveau avancé avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. Data Scientist : niveau avancé permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terra"
-    },
     {
       "sourceUrl": "https://www.plb.fr/formation/sql-fondamentaux",
       "slug": "oibb-sql-les-fondamentaux",
@@ -325,7 +57,7 @@
       "description": "Au cours de cette formation SQL, vous allez apprendre à utiliser le langage SQL pour que chaque requête, simple ou complexe, soit écrite naturellement avec simplicité.",
       "summary": "SQL : les fondamentaux permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Au cours de cette formation SQL, vous allez apprendre à utiliser le langage SQL pour que chaque requête, simple ou complexe, soit écrite naturellement avec simplicité.",
       "audience": "et",
-      "prerequisites": "Maîtriser l’utilisation de son poste de travail sous Windows et avoir des notions de gestion des données dans l'entreprise (par exemple la création de tableaux simples dans Excel se référant à des données structurées : référence, nom, adresse, etc.).J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Langage SQL : Exploiter une base de donn&eacute;es relationnelleCette formation vous prépare au passage de la certification Langage SQL : Exploiter une base de données relationnelle. Cette épreuve d’évaluation “Langage SQL : Exploiter une base de données relationnelle” vient évaluer les compétences suivantes : l’extraction de données à l’aide de requêtes simples et complexes, mettre à jour les données d’une table, et créer des vues.Elle est constituée de cas pratique qui positionnent le candidat dans une situation similaire à son environnement de travail ainsi que de questions sous la forme d’un questionnaire à choix multiple et à choix unique.Cette épreuve d’évaluation couvre les 4 compétences du référentiel de la certification “Langage SQL : Exploiter une base de données relationnelle”, elle est chronométrée et dure 1 heure 30 maximum.La certification est obtenue si le candidat obtient 700 points minimum sur 1000. Un cas pratique vaut dix fois plus de points qu’une question de type QCM/QCU. Un candidat ne peut donc pas obtenir sa certification uniquement avec les questions de type QCM/QCU. Le résultat ainsi obtenu permet de valider les compétences du candidat dans l’exploitation de données avec le langage SQL, dans une base de données relationnelle.La certification est obtenue si le candidat obtient un score supérieur à 81 points sur 116 soit 700 points minimum sur 1000 (un ratio est fait en fonction du nombre de points obtenus).Le passage de la certification n'est pas obligatoire et n'est pas compris dans le tarif de la formation.Cette certification est éligible au CPF. Retrouvez cette formation SQL sur le site du CPF (MonCompteFormation).Date de mise à jour du",
+      "prerequisites": "Maîtriser l’utilisation de son poste de travail sous Windows et avoir des notions de gestion des données dans l'entreprise (par exemple la création de tableaux simples dans Excel se référant à des données structurées : référence, nom, adresse, etc.).J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Langage SQL : Exploiter une base de données relationnelleCette formation vous prépare au passage de la certification Langage SQL : Exploiter une base de données relationnelle. Cette épreuve d’évaluation “Langage SQL : Exploiter une base de données relationnelle” vient évaluer les compétences suivantes : l’extraction de données à l’aide de requêtes simples et complexes, mettre à jour les données d’une table, et créer des vues.Elle est constituée de cas pratique qui positionnent le candidat dans une situation similaire à son environnement de travail ainsi que de questions sous la forme d’un questionnaire à choix multiple et à choix unique.Cette épreuve d’évaluation couvre les 4 compétences du référentiel de la certification “Langage SQL : Exploiter une base de données relationnelle”, elle est chronométrée et dure 1 heure 30 maximum.La certification est obtenue si le candidat obtient 700 points minimum sur 1000. Un cas pratique vaut dix fois plus de points qu’une question de type QCM/QCU. Un candidat ne peut donc pas obtenir sa certification uniquement avec les questions de type QCM/QCU. Le résultat ainsi obtenu permet de valider les compétences du candidat dans l’exploitation de données avec le langage SQL, dans une base de données relationnelle.La certification est obtenue si le candidat obtient un score supérieur à 81 points sur 116 soit 700 points minimum sur 1000 (un ratio est fait en fonction du nombre de points obtenus).Le passage de la certification n'est pas obligatoire et n'est pas compris dans le tarif de la formation.Cette certification est éligible au CPF. Retrouvez cette formation SQL sur le site du CPF (MonCompteFormation).Date de mise à jour du",
       "objectives": [],
       "programSections": [
         {
@@ -383,7 +115,7 @@
           "bullets": []
         },
         {
-          "title": "Langage SQL : Exploiter une base de donn&eacute;es relationnelle",
+          "title": "Langage SQL : Exploiter une base de données relationnelle",
           "bullets": []
         }
       ],
@@ -405,14 +137,14 @@
       "description": "Cette formation PostgreSQL, vous apprendra à installer et à administrer au quotidien votre serveur de base de données PostgreSQL.",
       "summary": "PostgreSQL : Administration de la base de données permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette formation PostgreSQL, vous apprendra à installer et à administrer au quotidien votre serveur de base de données PostgreSQL.",
       "audience": "et",
-      "prerequisites": "Les participants possèdent un socle de connaissances et de compétences minimal sur les bases de données relationnelles. Ils sont en mesure d’effectuer des requêtes simples en SQL pour interroger et manipuler des données, en vue de les répliquer au cours des travaux pratiques de cette formation PostgreSQL.Des connaissances sur les systèmes d’exploitation UNIX / Linux et/ou Windows sont également nécessaires.J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.AVIT by ENI - Administration d&rsquo;une base de donn&eacute;esCette formation vous prépare au passage de la certification « AVIT by ENI - Certification Administration d’une base de données » (Option PostgreSQL) qui démontre votre compétence à mettre en œuvre une base de données dans le respect des règles de gestion énoncées, à insérer et mettre à jour des données, à en assurer la sécurité, la sauvegarde, la restauration ainsi que la maintenance.L’examen de certification se passe en ligne sous forme d’un QCM d’une durée d’1 heure. Le résultat s’affiche selon un score de 1000 points. Un score supérieur à 600 indique que les compétences sont acquises.La certification n’est pas obligatoire. L’inscription à l’examen n’est pas incluse dans le prix de la formation.Date de mise à jour du",
+      "prerequisites": "Les participants possèdent un socle de connaissances et de compétences minimal sur les bases de données relationnelles. Ils sont en mesure d’effectuer des requêtes simples en SQL pour interroger et manipuler des données, en vue de les répliquer au cours des travaux pratiques de cette formation PostgreSQL.Des connaissances sur les systèmes d’exploitation UNIX / Linux et/ou Windows sont également nécessaires.J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Travaux pratiquesPar défaut ils sont réalisés sous Linux, penser à nous prévenir à l'avance si vous souhaitez les réaliser sous Windows.AVIT by ENI - Administration d’une base de donnéesCette formation vous prépare au passage de la certification « AVIT by ENI - Certification Administration d’une base de données » (Option PostgreSQL) qui démontre votre compétence à mettre en œuvre une base de données dans le respect des règles de gestion énoncées, à insérer et mettre à jour des données, à en assurer la sécurité, la sauvegarde, la restauration ainsi que la maintenance.L’examen de certification se passe en ligne sous forme d’un QCM d’une durée d’1 heure. Le résultat s’affiche selon un score de 1000 points. Un score supérieur à 600 indique que les compétences sont acquises.La certification n’est pas obligatoire. L’inscription à l’examen n’est pas incluse dans le prix de la formation.Date de mise à jour du",
       "objectives": [],
       "programSections": [
         {
           "title": "Objectifs de la formation",
           "bullets": [
             "Comprendre l’architecture et le fonctionnement interne de PostgreSQL",
-            "Savoir installer et configurerun serveur PostgreSQL",
+            "Savoir installer et configurer un serveur PostgreSQL",
             "Administrer les bases de données et les instances au quotidien",
             "Gérer des utilisateurs, les rôles et les droits d'accès",
             "Savoir interagir avec un serveur PostgreSQL au moyen de Psql",
@@ -471,7 +203,11 @@
           "bullets": []
         },
         {
-          "title": "AVIT by ENI - Administration d&rsquo;une base de donn&eacute;es",
+          "title": "Travaux pratiques",
+          "bullets": []
+        },
+        {
+          "title": "AVIT by ENI - Administration d’une base de données",
           "bullets": []
         }
       ],
@@ -487,13 +223,13 @@
       "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
       "format": "ionsDécouvrez PLBVotre",
       "location": "xPériode",
-      "nextSession": "21/05/2026",
+      "nextSession": "11/06/2026",
       "priceText": "1 590€ HT",
       "priceFromCents": 159000,
       "description": "Cette formation SQL Perfectionnement vous apprend à lire et écrire des requêtes SQL complexes en disposant d’une méthodologie solide et étayée.",
       "summary": "SQL Perfectionnement permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette formation SQL Perfectionnement vous apprend à lire et écrire des requêtes SQL complexes en disposant d’une méthodologie solide et étayée.",
       "audience": "et",
-      "prerequisites": "Pour suivre cette formation SQL Perfectionnement, il est important de bien connaître les fondamentaux du SQL (select … from … where, group by, jointure simple, etc.) et les concepts fondamentaux des bases de données relationnelles (table, lignes, colonnes, clef primaire, clef étrangère).La formation SQL : Interroger les bases de données avec le langage SQL (Réf. OIBB) peut constituer un bon prérequis.J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Langage SQL : Exploiter une base de donn&eacute;es relationnelleCette formation vous prépare au passage de la certification Langage SQL : Exploiter une base de données relationnelle. Cette épreuve d’évaluation “Langage SQL : Exploiter une base de données relationnelle” vient évaluer les compétences suivantes : l’extraction de données à l’aide de requêtes simples et complexes, mettre à jour les données d’une table, et créer des vues.Elle est constituée de cas pratique qui positionnent le candidat dans une situation similaire à son environnement de travail ainsi que de questions sous la forme d’un questionnaire à choix multiple et à choix unique.Cette épreuve d’évaluation couvre les 4 compétences du référentiel de la certification “Langage SQL : Exploiter une base de données relationnelle”, elle est chronométrée et dure 1 heure 30 maximum.La certification est obtenue si le candidat obtient 700 points minimum sur 1000. Un cas pratique vaut dix fois plus de points qu’une question de type QCM/QCU. Un candidat ne peut donc pas obtenir sa certification uniquement avec les questions de type QCM/QCU. Le résultat ainsi obtenu permet de valider les compétences du candidat dans l’exploitation de données avec le langage SQL, dans une base de données relationnelle.La certification est obtenue si le candidat obtient un score supérieur à 81 points sur 116 soit 700 points minimum sur 1000 (un ratio est fait en fonction du nombre de points obtenus).Le passage de la certification n'est pas obligatoire et n'est pas compris dans le tarif de la formation.Cette certification est éligible au CPF. Retrouvez cette formation SQL Perfectionnement sur le site du CPF (MonCompteFormation).Date de mise à jour du",
+      "prerequisites": "Pour suivre cette formation SQL Perfectionnement, il est important de bien connaître les fondamentaux du SQL (select … from … where, group by, jointure simple, etc.) et les concepts fondamentaux des bases de données relationnelles (table, lignes, colonnes, clef primaire, clef étrangère).La formation SQL : Interroger les bases de données avec le langage SQL (Réf. OIBB) peut constituer un bon prérequis.J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Travaux pratiquesLes travaux pratiques représentent 80% du temps de formation.Langage SQL : Exploiter une base de données relationnelleCette formation vous prépare au passage de la certification Langage SQL : Exploiter une base de données relationnelle. Cette épreuve d’évaluation “Langage SQL : Exploiter une base de données relationnelle” vient évaluer les compétences suivantes : l’extraction de données à l’aide de requêtes simples et complexes, mettre à jour les données d’une table, et créer des vues.Elle est constituée de cas pratique qui positionnent le candidat dans une situation similaire à son environnement de travail ainsi que de questions sous la forme d’un questionnaire à choix multiple et à choix unique.Cette épreuve d’évaluation couvre les 4 compétences du référentiel de la certification “Langage SQL : Exploiter une base de données relationnelle”, elle est chronométrée et dure 1 heure 30 maximum.La certification est obtenue si le candidat obtient 700 points minimum sur 1000. Un cas pratique vaut dix fois plus de points qu’une question de type QCM/QCU. Un candidat ne peut donc pas obtenir sa certification uniquement avec les questions de type QCM/QCU. Le résultat ainsi obtenu permet de valider les compétences du candidat dans l’exploitation de données avec le langage SQL, dans une base de données relationnelle.La certification est obtenue si le candidat obtient un score supérieur à 81 points sur 116 soit 700 points minimum sur 1000 (un ratio est fait en fonction du nombre de points obtenus).Le passage de la certification n'est pas obligatoire et n'est pas compris dans le tarif de la formation.Cette certification est éligible au CPF. Retrouvez cette formation SQL Perfectionnement sur le site du CPF (MonCompteFormation).Date de mise à jour du",
       "objectives": [],
       "programSections": [
         {
@@ -539,7 +275,11 @@
           "bullets": []
         },
         {
-          "title": "Langage SQL : Exploiter une base de donn&eacute;es relationnelle",
+          "title": "Travaux pratiques",
+          "bullets": []
+        },
+        {
+          "title": "Langage SQL : Exploiter une base de données relationnelle",
           "bullets": []
         }
       ],
@@ -640,13 +380,13 @@
       "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
       "format": "ionsDécouvrez PLBVotre",
       "location": "Paris",
-      "nextSession": "18/05/2026",
+      "nextSession": "08/06/2026",
       "priceText": "2 050€ HT",
       "priceFromCents": 205000,
       "description": "Cette Formation optimisation SQL a pour objectif de connaître et utiliser les techniques d&#x27;optimisation des requêtes SQL afin d&#x27;améliorer les performances des applications.",
       "summary": "Optimisation des requêtes SQL sous Oracle permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette Formation optimisation SQL a pour objectif de connaître et utiliser les techniques d&#x27;optimisation des requêtes SQL afin d&#x27;améliorer les performances des applications.",
       "audience": "et",
-      "prerequisites": "La maîtrise du SQL et PL/SQL est indispensable. J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.AVIT by ENI - Exploitation d&rsquo;une base de donn&eacute;es avec le langage SQL Cette formation vous prépare au passage de la certification \"AVIT by ENI - Exploitation d’une base de données avec le langage SQL\" qui démontre votre compétence à interagir avec une base de données en utilisant le langage SQL. L’examen portera sur le langage SQL standard sans référence quelconque à un Système de Gestion de Base de Données Relationnelle spécifique. L’examen de certification se passe en ligne sous forme d’un QCM d’une durée d’1 heure. Le résultat s’affiche selon un score de 1000 points. Un score supérieur à 600 indique que les compétences sont acquises. La certification n’est pas obligatoire. L’inscription à l’examen n’est pas incluse dans le prix de la formation. Date de mise à jour du",
+      "prerequisites": "La maîtrise du SQL et PL/SQL est indispensable. J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.AVIT by ENI - Exploitation d’une base de données avec le langage SQL Cette formation vous prépare au passage de la certification \"AVIT by ENI - Exploitation d’une base de données avec le langage SQL\" qui démontre votre compétence à interagir avec une base de données en utilisant le langage SQL. L’examen portera sur le langage SQL standard sans référence quelconque à un Système de Gestion de Base de Données Relationnelle spécifique. L’examen de certification se passe en ligne sous forme d’un QCM d’une durée d’1 heure. Le résultat s’affiche selon un score de 1000 points. Un score supérieur à 600 indique que les compétences sont acquises. La certification n’est pas obligatoire. L’inscription à l’examen n’est pas incluse dans le prix de la formation. Date de mise à jour du",
       "objectives": [],
       "programSections": [
         {
@@ -702,7 +442,7 @@
           "bullets": []
         },
         {
-          "title": "AVIT by ENI - Exploitation d&rsquo;une base de donn&eacute;es avec le langage SQL",
+          "title": "AVIT by ENI - Exploitation d’une base de données avec le langage SQL",
           "bullets": []
         }
       ],
@@ -724,7 +464,7 @@
       "description": "Cette formation initiation aux bases de données vous permettra de comprendre ce qu&#x27;est une base de données et en quoi elle se différencie d&#x27;un « simple fichier Excel amélioré »",
       "summary": "Initiation aux bases de données et au SQL pour les professionnels non informaticiens permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette formation initiation aux bases de données vous permettra de comprendre ce qu&#x27;est une base de données et en quoi elle se différencie d&#x27;un « simple fichier Excel amélioré »",
       "audience": "et",
-      "prerequisites": "AucunJ'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Langage SQL : Exploiter une base de donn&eacute;es relationnelleCette formation vous prépare au passage de la certification Langage SQL : Exploiter une base de données relationnelle. Cette épreuve d’évaluation “Langage SQL : Exploiter une base de données relationnelle” vient évaluer les compétences suivantes : l’extraction de données à l’aide de requêtes simples et complexes, mettre à jour les données d’une table, et créer des vues.Elle est constituée de cas pratique qui positionnent le candidat dans une situation similaire à son environnement de travail ainsi que de questions sous la forme d’un questionnaire à choix multiple et à choix unique.Cette épreuve d’évaluation couvre les 4 compétences du référentiel de la certification “Langage SQL : Exploiter une base de données relationnelle”, elle est chronométrée et dure 1 heure 30 maximum.La certification est obtenue si le candidat obtient 700 points minimum sur 1000. Un cas pratique vaut dix fois plus de points qu’une question de type QCM/QCU. Un candidat ne peut donc pas obtenir sa certification uniquement avec les questions de type QCM/QCU. Le résultat ainsi obtenu permet de valider les compétences du candidat dans l’exploitation de données avec le langage SQL, dans une base de données relationnelle.La certification est obtenue si le candidat obtient un score supérieur à 81 points sur 116 soit 700 points minimum sur 1000 (un ratio est fait en fonction du nombre de points obtenus).Le passage de la certification n'est pas obligatoire et n'est pas compris dans le tarif de la formation.Retrouvez cette formation Initiation aux bases de données sur le site du CPF (MonCompteFormation).Date de mise à jour du",
+      "prerequisites": "AucunJ'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Travaux pratiquesLes TP sont réalisés dans l'environnement de votre choix (Oracle, SQL Server, MySQL, PostgreSQL, ...). Chaque participant va construire de façon progressive son environnement en partant de zéro. A partir d'un modèle conceptuel de données réalisé en TP les participants prennent conscience de l'origine des données dans la base et des liens qui les unissent. Ensuite on passe à la création des tables qui seront utilisées tout au long du stage pour les manipulations SQL (extraction de données) ainsi que pour la sécurisation des données et les accès concurrents. Les données de la base sont exportées dans des formats facilement récupérables pour une « belle » présentation (Excel par exemple). Enfin on présente un mini site WEB qui va utiliser les données de notre base.Langage SQL : Exploiter une base de données relationnelleCette formation vous prépare au passage de la certification Langage SQL : Exploiter une base de données relationnelle. Cette épreuve d’évaluation “Langage SQL : Exploiter une base de données relationnelle” vient évaluer les compétences suivantes : l’extraction de données à l’aide de requêtes simples et complexes, mettre à jour les données d’une table, et créer des vues.Elle est constituée de cas pratique qui positionnent le candidat dans une situation similaire à son environnement de travail ainsi que de questions sous la forme d’un questionnaire à choix multiple et à choix unique.Cette épreuve d’évaluation couvre les 4 compétences du référentiel de la certification “Langage SQL : Exploiter une base de données relationnelle”, elle est chronométrée et dure 1 heure 30 maximum.La certification est obtenue si le candidat obtient 700 points minimum sur 1000. Un cas pratique vaut dix fois plus de points qu’une question de type QCM/QCU. Un candidat ne peut donc pas obtenir sa certification uniquement avec les questions de type QCM/QCU. Le résultat ainsi obtenu permet de valider les compétences du candidat dans l’exploitation de données avec le langage SQL, dans une base de données relationnelle.La certification est obtenue si le candidat obtient un score supérieur à 81 points sur 116 soit 700 points minimum sur 1000 (un ratio est fait en fonction du nombre de points obtenus).Le passage de la certification n'est pas obligatoire et n'est pas compris dans le tarif de la formation.Retrouvez cette formation Initiation aux bases de données sur le site du CPF (MonCompteFormation).Date de mise à jour du",
       "objectives": [],
       "programSections": [
         {
@@ -777,7 +517,11 @@
           "bullets": []
         },
         {
-          "title": "Langage SQL : Exploiter une base de donn&eacute;es relationnelle",
+          "title": "Travaux pratiques",
+          "bullets": []
+        },
+        {
+          "title": "Langage SQL : Exploiter une base de données relationnelle",
           "bullets": []
         }
       ],
@@ -793,7 +537,7 @@
       "level": "et aux objectifs des participants.Programme de la formationObjectifs",
       "format": "ionsDécouvrez PLBVotre",
       "location": "À",
-      "nextSession": "20/04/2026",
+      "nextSession": "20/07/2026",
       "priceText": "Intra uniquement",
       "priceFromCents": null,
       "description": "Cette formation Oracle APEX (Oracle Application Express) permet d’apprendre à développer et déployer rapidement des applications sécurisées. Nombreux travaux pratiques.",
@@ -856,13 +600,13 @@
       "level": "x d'autorisations (crédentials) alloués aux processus Configuration du fichier CMDSEC",
       "format": "ionsDécouvrez PLBVotre",
       "location": "À",
-      "nextSession": "18/05/2026",
-      "priceText": "53050€ HT",
-      "priceFromCents": 5305000,
+      "nextSession": "17/08/2026",
+      "priceText": "3050€ HT",
+      "priceFromCents": 305000,
       "description": "Cette formation Oracle GoldenGate vous apprend à mettre en œuvre une solution de réplication de données mono ou bidirectionnelle dans un environnement hétérogène avec PLB",
       "summary": "Oracle GoldenGate (OGG) permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette formation Oracle GoldenGate vous apprend à mettre en œuvre une solution de réplication de données mono ou bidirectionnelle dans un environnement hétérogène avec PLB",
       "audience": "et",
-      "prerequisites": "du système d'exploitation Les prérequis des bases de données La matrice de certification GoldenGate Architecture Oracle GoldenGate Les différents modes de capture Les différents modes de réplication Le rôle des groupes de processus Les répertoires GoldenGate Quelques exemples d’architectures Installation d'Oracle GoldenGate Installation avec OUI Configuration des différentes variables d'environnement L'interface GGSCI Configuration du Process Manager Préparation de la base Source (paramètres, privilèges) Le rôle du package DBMS_GOLDENGATE_AUTH Travaux Pratiques : Installation d’un environnement Configuration de la capture des changements (Extract) Configuration des tâches d'extraction Gestion des groupes d'extraction Gestion des paramètres d'extraction Ajout de trails Travaux Pratiques : Configuration d’une extraction de données Configuration de la réplication Les différentes possibilités Configuration des tâches de réplication Configuration d'un environnement de réplication Travaux Pratiques : Configuration d’une réplication de données Configuration des trails Extract et des fichiers (Data Pump) Format des trails Utilisation de Data Pump Travaux Pratiques : Visualisation du contenu des trails avec la commande Logdump Chargement initial Méthodologies à partir d'Oracle GoldenGate Méthodologies à partir de la base de données Oracle Avantages et inconvénients de chaque méthode Configuration d’un chargement direct Traitement en cas de collisions Travaux Pratiques : Approche pratique avec un chargement initial par fichier Approche pratique avec un chargement initial direct Les différents paramètres Les paramètres de configuration de GoldeGate Le rôle des différents fichiers de paramètres Les paramètres de gestion Les paramètres relatifs à l’extraction Les paramètres relatifs à la réplication Travaux Pratiques : Configuration des différents fichiers de paramètres La sélection, le filtrage et la transformation de données Le mappage de données entre les différents schémas Les différentes méthodes de transformation (macros/séquences Oracle/Tokens) Utilisation de la compression Utilisation du chiffrement Utilisation d'événements Travaux Pratiques : Approche pratique avec la configuration du portefeuille de sécurité Le cas de la réplication bidirectionnelle Architecture Suivi et détection de boucle Les conflits potentiels et les modes de résolution Travaux Pratiques : Mise en place et gestion de la réplication bidirectionnelle La réplication DDL Liste des contraintes Travaux Pratiques : Configuration et options pour la réplication DDL Un peu plus loin avec la sécurité et GoldenGate Le cryptage de données dans les trails ou les fichiers d'extraction Les différents niveaux d'autorisations (crédentials) alloués aux processus Configuration du fichier CMDSEC Les commandes de sécurité GGSCI Travaux Pratiques : Approche pratique d’une architecture avec pare-feux et configuration \"passive-alias Extract\". Public et prérequisPublic cible : Cette formation s'adrese aux administrateurs de base de données, architectes, intégrateurs, consultants techniques souhaitant obtenir une maitrise des solutions de réplication de données. Prérequis : Pour suivre cette formation, il est conseillé d'avoir quelques connaissances sur les bases de données Oracle. J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Date de mise à jour du",
+      "prerequisites": "du système d'exploitation Les prérequis des bases de données La matrice de certification GoldenGate Architecture Oracle GoldenGate Les différents modes de capture Les différents modes de réplication Le rôle des groupes de processus Les répertoires GoldenGate Quelques exemples d’architectures Installation d'Oracle GoldenGate Installation avec OUI Configuration des différentes variables d'environnement L'interface GGSCI Configuration du Process Manager Préparation de la base Source (paramètres, privilèges) Le rôle du package DBMS_GOLDENGATE_AUTH Travaux Pratiques : Installation d’un environnement Configuration de la capture des changements (Extract) Configuration des tâches d'extraction Gestion des groupes d'extraction Gestion des paramètres d'extraction Ajout de trails Travaux Pratiques : Configuration d’une extraction de données Configuration de la réplication Les différentes possibilités Configuration des tâches de réplication Configuration d'un environnement de réplication Travaux Pratiques : Configuration d’une réplication de données Configuration des trails Extract et des fichiers (Data Pump) Format des trails Utilisation de Data Pump Travaux Pratiques : Visualisation du contenu des trails avec la commande Logdump Chargement initial Méthodologies à partir d'Oracle GoldenGate Méthodologies à partir de la base de données Oracle Avantages et inconvénients de chaque méthode Configuration d’un chargement direct Traitement en cas de collisions Travaux Pratiques : Approche pratique avec un chargement initial par fichier Approche pratique avec un chargement initial direct Les différents paramètres Les paramètres de configuration de GoldeGate Le rôle des différents fichiers de paramètres Les paramètres de gestion Les paramètres relatifs à l’extraction Les paramètres relatifs à la réplication Travaux Pratiques : Configuration des différents fichiers de paramètres La sélection, le filtrage et la transformation de données Le mappage de données entre les différents schémas Les différentes méthodes de transformation (macros/séquences Oracle/Tokens) Utilisation de la compression Utilisation du chiffrement Utilisation d'événements Travaux Pratiques : Approche pratique avec la configuration du portefeuille de sécurité Le cas de la réplication bidirectionnelle Architecture Suivi et détection de boucle Les conflits potentiels et les modes de résolution Travaux Pratiques : Mise en place et gestion de la réplication bidirectionnelle La réplication DDL Liste des contraintes Travaux Pratiques : Configuration et options pour la réplication DDL Un peu plus loin avec la sécurité et GoldenGate Le cryptage de données dans les trails ou les fichiers d'extraction Les différents niveaux d'autorisations (crédentials) alloués aux processus Configuration du fichier CMDSEC Les commandes de sécurité GGSCI Travaux Pratiques : Approche pratique d’une architecture avec pare-feux et configuration \"passive-alias Extract\". Public et prérequisPublic cible : Cette formation s'adrese aux administrateurs de base de données, architectes, intégrateurs, consultants techniques souhaitant obtenir une maitrise des solutions de réplication de données. Prérequis : Pour suivre cette formation, il est conseillé d'avoir quelques connaissances sur les bases de données Oracle. J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Travaux pratiques Date de mise à jour du",
       "objectives": [],
       "programSections": [
         {
@@ -928,6 +672,10 @@
         },
         {
           "title": "Public et prérequis",
+          "bullets": []
+        },
+        {
+          "title": "Travaux pratiques",
           "bullets": []
         }
       ],
@@ -1026,7 +774,7 @@
       "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
       "format": "ionsDécouvrez PLBVotre",
       "location": "xPériode",
-      "nextSession": "20/04/2026",
+      "nextSession": "06/07/2026",
       "priceText": "1 590€ HT",
       "priceFromCents": 159000,
       "description": "Avec cette formation Neo4J pour Développeur vous apprenez à gérer des données fortement liées les unes aux autres sous formes de graphes.",
@@ -1082,6 +830,636 @@
       ],
       "seoTitle": "Neo4J pour Développeur | Beyond Expertise",
       "seoDescription": "Neo4J pour Développeur avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. Neo4J pour Développeur permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Avec cette f"
+    },
+    {
+      "sourceUrl": "https://www.plb.fr/formation/etre-rigoureux-au-travail",
+      "slug": "erst-etre-rigoureux-dans-son-travail",
+      "title": "Être rigoureux dans son travail",
+      "reference": "ERST",
+      "categoryName": "developpement personnel",
+      "level": "de précisionMettre en forme les informations et établir une check-list pour initier un projetDéfinir les critères et indicateurs de réussite du projetSavoir demander des précisions et du feedback",
+      "format": "ionsDécouvrez PLBVotre",
+      "location": "xPériode",
+      "nextSession": "25/06/2026",
+      "priceText": "1 550€ HT",
+      "priceFromCents": 155000,
+      "description": "Cette formation Être rigoureux au travail vous enseigne des méthodes simples et pragmatiques pour vous permettre de travailler avec rigueur.",
+      "summary": "Être rigoureux dans son travail permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette formation Être rigoureux au travail vous enseigne des méthodes simples et pragmatiques pour vous permettre de travailler avec rigueur.",
+      "audience": "et",
+      "prerequisites": "Aucun.J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Date de mise à jour du",
+      "objectives": [],
+      "programSections": [
+        {
+          "title": "Objectifs de la formation",
+          "bullets": [
+            "Formuler des méthodes simples et pragmatiques pour travailler avec rigueur",
+            "Identifier des objectifs précis dans le respect des délais",
+            "Développer un savoir-être pour gagner en professionnalisme",
+            "Être capable d'aller au bout de vos engagements professionnels"
+          ]
+        },
+        {
+          "title": "Contenu du cours etre rigoureux au travail",
+          "bullets": []
+        },
+        {
+          "title": "La rigueur professionnelle, un indispensable du travail en mode projet",
+          "bullets": []
+        },
+        {
+          "title": "Règle n°1 - Être pertinent : répondre aux objectifs fixés",
+          "bullets": []
+        },
+        {
+          "title": "Règle n°2 - Être efficace : gérer son temps et respecter les délais",
+          "bullets": []
+        },
+        {
+          "title": "Règle n°3 - Être minutieux : soigner les détails",
+          "bullets": []
+        },
+        {
+          "title": "Règle n°4 - Aller jusqu’au bout de ses engagements : tenir le cap !",
+          "bullets": []
+        },
+        {
+          "title": "Règle n°5 - Être agile : être rigoureux sans être rigide",
+          "bullets": []
+        },
+        {
+          "title": "Public et prérequis",
+          "bullets": []
+        }
+      ],
+      "seoTitle": "Être rigoureux dans son travail | Beyond Expertise",
+      "seoDescription": "Être rigoureux dans son travail avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. Être rigoureux dans son travail permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le ter"
+    },
+    {
+      "sourceUrl": "https://www.plb.fr/formation/redaction-technique",
+      "slug": "rdtf-redaction-de-documents-techniques-les-fondamentaux",
+      "title": "Rédaction de documents techniques : Les fondamentaux",
+      "reference": "RDTF",
+      "categoryName": "developpement personnel",
+      "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
+      "format": "ionsDécouvrez PLBVotre",
+      "location": "xPériode",
+      "nextSession": "21/09/2026",
+      "priceText": "2 490€ HT",
+      "priceFromCents": 249000,
+      "description": "Apprendre à rédiger des documents techniques clairs, tels des rapports techniques et des manuels d&#x27;utilisateurs avec PLB.",
+      "summary": "Rédaction de documents techniques : Les fondamentaux permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Apprendre à rédiger des documents techniques clairs, tels des rapports techniques et des manuels d&#x27;utilisateurs avec PLB.",
+      "audience": "et",
+      "prerequisites": "Cette formation d'introduction est destinée aux participants n'ayant pas de connaissances de la rédaction technique ou qui commencent juste à développer les compétences nécessaires pour maîtriser ce domaine.J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Travaux pratiquesApproche théorique pour transmettre des éléments de compréhension : comportements des lecteurs, opportunités et contraintes de rédaction, les conditions de réussite, les erreurs à éviter...Approche participative pour s'appuyer sur les projets et situations professionnelles des participants.Approche active avec des exercices pratiques (TP et études de cas).Outils et grilles pratiques pour optimiser sa rédaction professionnelle.Ce stage incorpore plusieurs Ateliers Pratiques comme :– Analyser votre lectorat pour mieux répondre à ses attentes– Création d’une table des matières préliminaire– Correction et rédaction de procédures– Rédaction de procédures « avec IA » : analyse comparée des résultats Homme/Machine– Rédaction d’une notice complète– Rédaction de prompts et principes d’itération– Analyses de cas pratiques directement adaptés aux procédures, documentations, problématiques et environnement de travail des stagiairesDate de mise à jour du",
+      "objectives": [],
+      "programSections": [
+        {
+          "title": "Objectifs de la formation",
+          "bullets": [
+            "Être en mesure de rédiger des documents techniques clairs, tels que des rapports techniques et des manuels d'utilisateurs",
+            "Évaluer votre lectorat et élaborer des documents qui répondent à leurs besoins",
+            "Être capable de créer un contenu informatif et intéressant",
+            "Comprendre et maîtriser les outils d'IA générative pour une production de contenu accélérée"
+          ]
+        },
+        {
+          "title": "Contenu du cours Redaction technique",
+          "bullets": []
+        },
+        {
+          "title": "Introduction",
+          "bullets": []
+        },
+        {
+          "title": "Les étapes préalables à l’élaboration d’une documentation technique",
+          "bullets": []
+        },
+        {
+          "title": "Le style rédactionnel propre à la documentation technique",
+          "bullets": []
+        },
+        {
+          "title": "Savoir rédiger des procédures",
+          "bullets": []
+        },
+        {
+          "title": "Les illustrations graphiques en rédaction technique",
+          "bullets": []
+        },
+        {
+          "title": "La feuille de style : quand la structure donne sens",
+          "bullets": []
+        },
+        {
+          "title": "Élaborer une aide technique en ligne",
+          "bullets": []
+        },
+        {
+          "title": "Finaliser un document : après la rédaction",
+          "bullets": []
+        },
+        {
+          "title": "Public et prérequis",
+          "bullets": []
+        },
+        {
+          "title": "Travaux pratiques",
+          "bullets": []
+        }
+      ],
+      "seoTitle": "Rédaction de documents techniques : Les fondamentaux | Beyond Expertise",
+      "seoDescription": "Rédaction de documents techniques : Les fondamentaux avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. Rédaction de documents techniques : Les fondamentaux permet de structurer une montée en compétence opérationnelle autour des usages, méthod"
+    },
+    {
+      "sourceUrl": "https://www.plb.fr/formation/force-persuasion",
+      "slug": "sith-augmenter-sa-force-de-persuasion-et-son-pouvoir-d-influence",
+      "title": "Augmenter sa force de persuasion et son pouvoir d'influence",
+      "reference": "SITH",
+      "categoryName": "developpement personnel",
+      "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
+      "format": "ionsDécouvrez PLBVotre",
+      "location": "hostilePrendre de la distance sur ses propres tendances à manipuler ou agresserCas",
+      "nextSession": "11/06/2026",
+      "priceText": "1 550€ HT",
+      "priceFromCents": 155000,
+      "description": "Cette formation Augmenter sa force de persuasion vous apprend à développer votre pouvoir d&#x27;influence au quotidien.",
+      "summary": "Augmenter sa force de persuasion et son pouvoir d'influence permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette formation Augmenter sa force de persuasion vous apprend à développer votre pouvoir d&#x27;influence au quotidien.",
+      "audience": "et",
+      "prerequisites": "Aucun.J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Date de mise à jour du",
+      "objectives": [],
+      "programSections": [
+        {
+          "title": "Objectifs de la formation",
+          "bullets": [
+            "Identifier les mécanismes de la communication engageante",
+            "Maîtriser les techniques d'engagement et de persuasion pour développer son pouvoir d'influence au quotidien",
+            "Reconnaître les comportements favorables à l'établissement d'une communication engageante",
+            "Affirmer son autorité à bon escient"
+          ]
+        },
+        {
+          "title": "Contenu du cours Force persuasion",
+          "bullets": []
+        },
+        {
+          "title": "Mieux connaître les mécanismes et les outils de la communication engageante",
+          "bullets": []
+        },
+        {
+          "title": "S’approprier les techniques de l’engagement : donner de la vigueur et du relief à sa communication pour gagner en influence au quotidien",
+          "bullets": []
+        },
+        {
+          "title": "De la communication persuasive à la communication engageante : apprendre à modifier les attitudes et comportements de ses interlocuteurs",
+          "bullets": []
+        },
+        {
+          "title": "Affirmer son autorité à bon escient, convaincre et avancer « tactiquement » ses arguments",
+          "bullets": []
+        },
+        {
+          "title": "Surmonter les manipulations et l'hostilité",
+          "bullets": []
+        },
+        {
+          "title": "Public et prérequis",
+          "bullets": []
+        }
+      ],
+      "seoTitle": "Augmenter sa force de persuasion et son pouvoir d'influence | Beyond Expertise",
+      "seoDescription": "Augmenter sa force de persuasion et son pouvoir d'influence avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. Augmenter sa force de persuasion et son pouvoir d'influence permet de structurer une montée en compétence opérationnelle autour des "
+    },
+    {
+      "sourceUrl": "https://www.plb.fr/formation/decoder-ses-interlocuteurs",
+      "slug": "dcei-decoder-les-comportements-emotions-et-attitudes-de-ses-interlocuteurs",
+      "title": "Décoder les comportements, émotions et attitudes de ses interlocuteurs",
+      "reference": "DCEI",
+      "categoryName": "developpement personnel",
+      "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
+      "format": "ionsDécouvrez PLBVotre",
+      "location": "xPériode",
+      "nextSession": "06/07/2026",
+      "priceText": "1 450€ HT",
+      "priceFromCents": 145000,
+      "description": "Cette formation Décoder ses interlocuteurs vous apprend à mieux « écouter » pour mieux communiquer.",
+      "summary": "Décoder les comportements, émotions et attitudes de ses interlocuteurs permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette formation Décoder ses interlocuteurs vous apprend à mieux « écouter » pour mieux communiquer.",
+      "audience": "et",
+      "prerequisites": "Aucun.J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Date de mise à jour du",
+      "objectives": [],
+      "programSections": [
+        {
+          "title": "Objectifs de la formation",
+          "bullets": [
+            "Reconnaître les comportements, expressions et émotions de ses interlocuteurs",
+            "Décrypter le langage corporel (communication non verbale)",
+            "Développer ses capacités d'écoute",
+            "Développer une communication plus authentique et positive pour déjouer les pièges relationnels"
+          ]
+        },
+        {
+          "title": "Contenu du cours Decoder ses interlocuteurs",
+          "bullets": []
+        },
+        {
+          "title": "Mieux comprendre les caractéristiques des différents types de personnalités et comportements",
+          "bullets": []
+        },
+        {
+          "title": "Aiguiser son sens de l’écoute, développer ses capacités de perception",
+          "bullets": []
+        },
+        {
+          "title": "Détecter les émotions et les expressions de ses interlocuteurs : comprendre pour mieux réagir",
+          "bullets": []
+        },
+        {
+          "title": "Décrypter le langage corporel : les outils de la communication non verbale",
+          "bullets": []
+        },
+        {
+          "title": "Savoir reconnaître et déjouer les pièges relationnels",
+          "bullets": []
+        },
+        {
+          "title": "Public et prérequis",
+          "bullets": []
+        }
+      ],
+      "seoTitle": "Décoder les comportements, émotions et attitudes de ses interlocuteurs | Beyond Expertise",
+      "seoDescription": "Décoder les comportements, émotions et attitudes de ses interlocuteurs avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. Décoder les comportements, émotions et attitudes de ses interlocuteurs permet de structurer une montée en compétence opér"
+    },
+    {
+      "sourceUrl": "https://www.plb.fr/formation/savoir-dire-non",
+      "slug": "osdn-oser-dire-et-savoir-dire-non",
+      "title": "Oser dire et savoir dire « Non »",
+      "reference": "OSDN",
+      "categoryName": "developpement personnel",
+      "level": "de stress et fixer son plan d'action personnel pour mieux gérer la pression",
+      "format": "ionsDécouvrez PLBVotre",
+      "location": "xPériode",
+      "nextSession": "24/09/2026",
+      "priceText": "1 550€ HT",
+      "priceFromCents": 155000,
+      "description": "Cette formation Savoir dire « Non » vous apprend à développer votre capacité à dire « non » pour améliorer votre efficacité, votre bien-être et vos relations.",
+      "summary": "Oser dire et savoir dire « Non » permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette formation Savoir dire « Non » vous apprend à développer votre capacité à dire « non » pour améliorer votre efficacité, votre bien-être et vos relations.",
+      "audience": "et",
+      "prerequisites": "Aucun.J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Date de mise à jour du",
+      "objectives": [],
+      "programSections": [
+        {
+          "title": "Objectifs de la formation",
+          "bullets": [
+            "Identifier vos besoins, vos limites et les faire respecter",
+            "Développer votre capacité à dire « non » pour améliorer votre efficacité, votre bien-être et vos relations",
+            "Organiser vos ressources pour vous préserver du stress et construire un environnement de travail sain et équilibré",
+            "Préserver votre équilibre"
+          ]
+        },
+        {
+          "title": "Contenu du cours Savoir dire « Non »",
+          "bullets": []
+        },
+        {
+          "title": "Prendre conscience de ses besoins et de ses limites personnelles",
+          "bullets": []
+        },
+        {
+          "title": "Délimiter le champ de ses fonctions et de ses responsabilités",
+          "bullets": []
+        },
+        {
+          "title": "Poser les limites dans sa charge de travail : s'affirmer pour ne plus être débordé !",
+          "bullets": []
+        },
+        {
+          "title": "Exprimer ses limites auprès de son entourage pour construire des relations saines et équilibrées",
+          "bullets": []
+        },
+        {
+          "title": "Mettre des barrières face aux nouvelles technologies : déconnecter pour mieux se ressourcer !",
+          "bullets": []
+        },
+        {
+          "title": "Se protéger du stress et préserver sa sphère personnelle",
+          "bullets": []
+        },
+        {
+          "title": "Public et prérequis",
+          "bullets": []
+        }
+      ],
+      "seoTitle": "Oser dire et savoir dire « Non » | Beyond Expertise",
+      "seoDescription": "Oser dire et savoir dire « Non » avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. Oser dire et savoir dire « Non » permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le t"
+    },
+    {
+      "sourceUrl": "https://www.plb.fr/formation/apprivoiser-colere-nervosite",
+      "slug": "pmai-apprivoiser-sa-colere-et-sa-nervosite",
+      "title": "Apprivoiser sa colère et sa nervosité",
+      "reference": "PMAI",
+      "categoryName": "developpement personnel",
+      "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
+      "format": "ionsDécouvrez PLBVotre",
+      "location": "xPériode",
+      "nextSession": "08/06/2026",
+      "priceText": "1 550€ HT",
+      "priceFromCents": 155000,
+      "description": "Cette formation Apprivoiser sa colère et sa nervosité permet d&#x27;apprendre à garder son calme en toutes circonstances.",
+      "summary": "Apprivoiser sa colère et sa nervosité permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette formation Apprivoiser sa colère et sa nervosité permet d&#x27;apprendre à garder son calme en toutes circonstances.",
+      "audience": "et",
+      "prerequisites": "Aucun.J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Date de mise à jour du",
+      "objectives": [],
+      "programSections": [
+        {
+          "title": "Objectifs de la formation",
+          "bullets": [
+            "Comprendre l'impact de la colère sur son environnement et ses performances",
+            "Apprivoiser ses émotions, transformer sa colère en source d'énergie",
+            "Comprendre, recevoir et réagir à la colère des autres",
+            "Prendre du recul et ajuster ses comportements pour apaiser ses relations"
+          ]
+        },
+        {
+          "title": "Contenu du cours Apprivoiser colere nervosite",
+          "bullets": []
+        },
+        {
+          "title": "La colère : mécanismes et manifestations",
+          "bullets": []
+        },
+        {
+          "title": "Test : Quel « colérique » êtes-vous ?",
+          "bullets": []
+        },
+        {
+          "title": "Canaliser, gérer sa colère et apprivoiser ses émotions",
+          "bullets": []
+        },
+        {
+          "title": "Comprendre, recevoir et réagir à la colère des autres",
+          "bullets": []
+        },
+        {
+          "title": "Apaiser les relations post colère pour retrouver une dynamique de collaboration saine",
+          "bullets": []
+        },
+        {
+          "title": "Ajuster ses comportements et prendre du recul face aux inévitables agressions du quotidien",
+          "bullets": []
+        },
+        {
+          "title": "Public et prérequis",
+          "bullets": []
+        }
+      ],
+      "seoTitle": "Apprivoiser sa colère et sa nervosité | Beyond Expertise",
+      "seoDescription": "Apprivoiser sa colère et sa nervosité avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. Apprivoiser sa colère et sa nervosité permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendu"
+    },
+    {
+      "sourceUrl": "https://www.plb.fr/formation/se-connaitre-reussir",
+      "slug": "acds-ateliers-connaissance-de-soi-bien-se-connaitre-pour-reussir",
+      "title": "Ateliers connaissance de soi : bien se connaître pour réussir",
+      "reference": "ACDS",
+      "categoryName": "developpement personnel",
+      "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
+      "format": "ionsDécouvrez PLBVotre",
+      "location": "xPériode",
+      "nextSession": "05/11/2026",
+      "priceText": "1 550€ HT",
+      "priceFromCents": 155000,
+      "description": "Cette formation Se connaître pour réussir vous permet de faire le point sur vos atouts, vos forces et vos principaux traits de personnalité.",
+      "summary": "Ateliers connaissance de soi : bien se connaître pour réussir permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette formation Se connaître pour réussir vous permet de faire le point sur vos atouts, vos forces et vos principaux traits de personnalité.",
+      "audience": "et",
+      "prerequisites": "Aucun.J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Date de mise à jour du",
+      "objectives": [],
+      "programSections": [
+        {
+          "title": "Objectifs de la formation",
+          "bullets": [
+            "Prendre conscience de l’image que l'on renvoie de soi et déployer sa singularité",
+            "Identifier ses traits de personnalité majeurs et capitaliser sur ses atouts",
+            "Comprendre le mode de fonctionnement des autres et savoir se positionner face à eux",
+            "Gagner en souplesse pour mieux s’adapter à son environnement professionnel et réussir"
+          ]
+        },
+        {
+          "title": "Contenu du cours Se connaitre reussir",
+          "bullets": []
+        },
+        {
+          "title": "Atelier 1 – Mieux se connaître grâce au regard des autres",
+          "bullets": []
+        },
+        {
+          "title": "Atelier 2 – Définir sa personnalité et ses ressorts internes",
+          "bullets": []
+        },
+        {
+          "title": "Atelier 3 – Saisir le mode de fonctionnement des autres et se positionner (manager, collaborateurs, clients)",
+          "bullets": []
+        },
+        {
+          "title": "Atelier 4 – S'affirmer avec souplesse et mettre en place un plan d'action pour réussir",
+          "bullets": []
+        },
+        {
+          "title": "Public et prérequis",
+          "bullets": []
+        }
+      ],
+      "seoTitle": "Ateliers connaissance de soi : bien se connaître pour réussir | Beyond Expertise",
+      "seoDescription": "Ateliers connaissance de soi : bien se connaître pour réussir avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. Ateliers connaissance de soi : bien se connaître pour réussir permet de structurer une montée en compétence opérationnelle autour "
+    },
+    {
+      "sourceUrl": "https://www.plb.fr/formation/convaincre-rapidement",
+      "slug": "conv-7-minutes-pour-convaincre",
+      "title": "« 7 minutes pour convaincre ! »",
+      "reference": "CONV",
+      "categoryName": "developpement personnel",
+      "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
+      "format": "ionsDécouvrez PLBVotre",
+      "location": "xPériode",
+      "nextSession": "09/10/2026",
+      "priceText": "950€ HT",
+      "priceFromCents": 95000,
+      "description": "Cette formation Convaincre rapidement vous apprend à augmenter votre impact à l&#x27;oral en captant l&#x27;intérêt de votre auditoire par des accroches percutantes et en sachant aller à l&#x27;essentiel avec aisance.",
+      "summary": "« 7 minutes pour convaincre ! » permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette formation Convaincre rapidement vous apprend à augmenter votre impact à l&#x27;oral en captant l&#x27;intérêt de votre auditoire par des accroches percutantes et en sachant aller à l&#x27;essentiel avec aisance.",
+      "audience": "se mettre à la place de ses interlocuteurs et anticiper leurs réactionsApprendre à faire participer l'auditoire et faciliter l'adhésion à ses projetsCas pratique« Prenez-vous en compte vos interlocuteurs ? »Structurer l'intervention et articuler ses idées avec nettetéSavoir trouver une amorce percutante : susciter l'intérêt de votre interlocuteur !Construire une progression solide d'arguments en restant diplomateClôturer par une accroche forteTraining en groupe et débriefing« Comment articulez-vous vos idées ? »Être convaincant : les ressorts cachés de la persuasionTrouver les accroches qui vont captiver : faire simple et juste, recourir aux métaphores ?Dévoiler l'idée phare : frapper fort l'esprit et illustrer ses idéesChoisir les mots qui font mouche : mots porteurs de sens et rassembleurs, affirmations positives, modes et temps adéquats ?Faire passer sa convictionChoisir une logique démonstrative forteMises en situation et analyse vidéoBien porter son message : doser concentration et enthousiasmeGérer votre stress et votre trac : refouler les pensées négatives et se préparer mentalementMettre le corps en tension positive : voix, intonation, silences, dictionRythmer son interventionTrouver le ton justeAdopter une gestuelle qui porte le sens : ne restez pas les bras ballantsCas pratique« Utilisez-vous suffisamment votre voix et vos gestes pour appuyer vos discours ? »Entraînement et analyses vidéoPublic et",
+      "prerequisites": "Cette formation Convaincre rapidement ne nécessite aucun prérequis particulier. À noter toutefois que les participants seront invités à préparer une intervention brève visant à convaincre un interlocuteur ou un groupe. Cette intervention servira de base aux entraînements pendant la formation.J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Date de mise à jour du",
+      "objectives": [],
+      "programSections": [
+        {
+          "title": "Objectifs de la formation",
+          "bullets": [
+            "Identifier les accroches percutantes pour convaincre vite",
+            "Choisir des stratégies pour aller à l'essentiel avec aisance",
+            "Développer son impact à l'oral",
+            "Savoir valoriser son point de vue"
+          ]
+        },
+        {
+          "title": "Contenu du cours Convaincre rapidement",
+          "bullets": []
+        },
+        {
+          "title": "Transformer la contrainte de temps en atout : faire vite et bien",
+          "bullets": []
+        },
+        {
+          "title": "Prendre en compte l'auditoire",
+          "bullets": []
+        },
+        {
+          "title": "Structurer l'intervention et articuler ses idées avec netteté",
+          "bullets": []
+        },
+        {
+          "title": "Être convaincant : les ressorts cachés de la persuasion",
+          "bullets": []
+        },
+        {
+          "title": "Bien porter son message : doser concentration et enthousiasme",
+          "bullets": []
+        },
+        {
+          "title": "Public et prérequis",
+          "bullets": []
+        }
+      ],
+      "seoTitle": "« 7 minutes pour convaincre ! » | Beyond Expertise",
+      "seoDescription": "« 7 minutes pour convaincre ! » avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : se mettre à la place de ses interlocuteurs et anticiper leurs réactionsApprendre à faire participer l'auditoire et faciliter l'adhésion à ses projetsCas pratique« P"
+    },
+    {
+      "sourceUrl": "https://www.plb.fr/formation/sens-politique",
+      "slug": "dssp-developper-son-sens-politique",
+      "title": "Développer son sens politique",
+      "reference": "DSSP",
+      "categoryName": "developpement personnel",
+      "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
+      "format": "ionsDécouvrez PLBVotre",
+      "location": "xPériode",
+      "nextSession": "08/10/2026",
+      "priceText": "1 650€ HT",
+      "priceFromCents": 165000,
+      "description": "Cette formation Développer son sens politique vous apprend à décrypter les mécaniques du pouvoir et à reconnaître les attitudes d&#x27;influence.",
+      "summary": "Développer son sens politique permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette formation Développer son sens politique vous apprend à décrypter les mécaniques du pouvoir et à reconnaître les attitudes d&#x27;influence.",
+      "audience": "et",
+      "prerequisites": "Cette formation Développer son sens politique ne nécessite aucun prérequis particulier, si ce n'est d'être manager d'une équipe, d'un service ou d'une organisation.J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Date de mise à jour du",
+      "objectives": [],
+      "programSections": [
+        {
+          "title": "Objectifs de la formation",
+          "bullets": [
+            "Décrypter les mécaniques du pouvoir et les attitudes d'influence",
+            "Énoncer ses choix explicitement et s'affirmer en stratège",
+            "Résister à la contradiction et conclure",
+            "Accroître votre rayonnement au sein de l'entreprise"
+          ]
+        },
+        {
+          "title": "Contenu du cours Sens politique",
+          "bullets": []
+        },
+        {
+          "title": "Décoder les dynamiques du pouvoir et les jeux politiques",
+          "bullets": []
+        },
+        {
+          "title": "Développer son instinct de la situation",
+          "bullets": []
+        },
+        {
+          "title": "Maîtriser le relationnel : être opportun sans être opportuniste",
+          "bullets": []
+        },
+        {
+          "title": "Accroître son rayonnement au sein de l’entreprise",
+          "bullets": []
+        },
+        {
+          "title": "Public et prérequis",
+          "bullets": []
+        }
+      ],
+      "seoTitle": "Développer son sens politique | Beyond Expertise",
+      "seoDescription": "Développer son sens politique avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. Développer son sens politique permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain"
+    },
+    {
+      "sourceUrl": "https://www.plb.fr/formation/communication",
+      "slug": "edcf-savoir-communiquer-avec-les-autres",
+      "title": "Savoir communiquer avec les autres",
+      "reference": "EDCF",
+      "categoryName": "developpement personnel",
+      "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
+      "format": "ionsDécouvrez PLBVotre",
+      "location": "xPériode",
+      "nextSession": "12/10/2026",
+      "priceText": "1 550€ HT",
+      "priceFromCents": 155000,
+      "description": "Cette formation communication permet de comprendre le véritable point de vue de son interlocuteur sans distorsion, d&#x27;apprendre à accepter une vision du monde différente de la sienne, de savoir défendre un point de vue et trouver les mots adaptés à son interlocuteur, de découvrir et pratiquer des techniques de communications adaptées à des situations particulières.",
+      "summary": "Savoir communiquer avec les autres permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette formation communication permet de comprendre le véritable point de vue de son interlocuteur sans distorsion, d&#x27;apprendre à accepter une vision du monde différente de la sienne, de savoir défendre un point de vue et trouver les mots adaptés à son interlocuteur, de découvrir et pratiquer des techniques de communications adaptées à des situations particulières.",
+      "audience": "et",
+      "prerequisites": "Aucun J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Travaux pratiques Cette formation alterne Théorie et Pratique pour une meilleure assimilation des connaissances. Date de mise à jour du",
+      "objectives": [],
+      "programSections": [
+        {
+          "title": "Objectifs de la formation",
+          "bullets": [
+            "Apprendre à se connaître soi-même et s’adapter aux autres en situation de communication",
+            "Connaître les règles qui sous-tendent la communication orale et écrite",
+            "Optimiser la compréhension de ses messages, savoir présenter ses idées et convaincre",
+            "Obtenir en un temps réduit des outils pragmatiques pour progresser à court/moyen terme"
+          ]
+        },
+        {
+          "title": "Contenu du cours Communication",
+          "bullets": []
+        },
+        {
+          "title": "Qu’est-ce que communiquer en entreprise ?",
+          "bullets": []
+        },
+        {
+          "title": "S’ajuster à son interlocuteur",
+          "bullets": []
+        },
+        {
+          "title": "Le coup gagnant de la communication : ACE",
+          "bullets": []
+        },
+        {
+          "title": "S’adapter au langage de l’autre : « le cadre de référence »",
+          "bullets": []
+        },
+        {
+          "title": "Recadrer ses points de progression : avoir une vision positive",
+          "bullets": []
+        },
+        {
+          "title": "S’informer avec précision pour comprendre l’interlocuteur : « la connaissance de la cible »",
+          "bullets": []
+        },
+        {
+          "title": "Transformer un problème en objectif : « la stratégie d’objectif »",
+          "bullets": []
+        },
+        {
+          "title": "Rendre efficace le mail, l’écrit professionnel le plus répandu",
+          "bullets": []
+        },
+        {
+          "title": "La ponctuation et l’investissement émotionnel",
+          "bullets": []
+        },
+        {
+          "title": "Public et prérequis",
+          "bullets": []
+        },
+        {
+          "title": "Travaux pratiques",
+          "bullets": []
+        }
+      ],
+      "seoTitle": "Savoir communiquer avec les autres | Beyond Expertise",
+      "seoDescription": "Savoir communiquer avec les autres avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. Savoir communiquer avec les autres permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur "
     },
     {
       "sourceUrl": "https://www.plb.fr/formation/intelligence-artificielle",
@@ -1168,7 +1546,7 @@
       "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
       "format": "ionsDécouvrez PLBVotre",
       "location": "xPériode",
-      "nextSession": "18/05/2026",
+      "nextSession": "24/08/2026",
       "priceText": "950€ HT",
       "priceFromCents": 95000,
       "description": "Cette formation Prompt Engineer vous apprend à rédiger des prompts de haute qualité pour optimiser et contrôler des résultats d’outils d’IA génératives (Chat GPT, Bing Chat, etc.)",
@@ -1227,7 +1605,7 @@
       "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
       "format": "ionsDécouvrez PLBVotre",
       "location": "professionnel, vous serez amené à générer des images correspondant à un but déterminé. De plus, vous développerez intégralement un système d'automatisation des tâches en utilisant ChatGPT et Make. Enfin, vous concevrez un chatbot personnalisé à l'aide de Voiceflow pour répondre à un besoin",
-      "nextSession": "01/06/2026",
+      "nextSession": "04/09/2026",
       "priceText": "1 590€ HT",
       "priceFromCents": 159000,
       "description": "Cette formation ChatGPT par la pratique vous apprend à utiliser ChatGPT et ses outils pour maximiser votre productivité au travail.",
@@ -1298,13 +1676,13 @@
       "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
       "format": "ionsDécouvrez PLBVotre",
       "location": "xPériode",
-      "nextSession": "15/06/2026",
+      "nextSession": "26/06/2026",
       "priceText": "2 090€ HT",
       "priceFromCents": 209000,
       "description": "Apprenez à gouverner, auditer et sécuriser l’usage de l’IA générative en entreprise dans un cadre éthique et réglementaire clair.",
       "summary": "Piloter et Encadrer l'IA Générative en Entreprise permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Apprenez à gouverner, auditer et sécuriser l’usage de l’IA générative en entreprise dans un cadre éthique et réglementaire clair.",
       "audience": "et",
-      "prerequisites": "Aucun prérequis technique n’est nécessaire. Une connaissance des enjeux réglementaires ou de gouvernance est un plus pour tirer pleinement profit de la formation.J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Date de mise à jour du",
+      "prerequisites": "Aucun prérequis technique n’est nécessaire. Une connaissance des enjeux réglementaires ou de gouvernance est un plus pour tirer pleinement profit de la formation.J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Travaux pratiques50 % de la formation repose sur des ateliers collaboratifs : élaboration de politiques internes, simulation de comités IA, analyse de risques et conception d’un plan d’action de gouvernance.Date de mise à jour du",
       "objectives": [],
       "programSections": [
         {
@@ -1360,6 +1738,10 @@
         {
           "title": "Public et prérequis",
           "bullets": []
+        },
+        {
+          "title": "Travaux pratiques",
+          "bullets": []
         }
       ],
       "seoTitle": "Piloter et Encadrer l'IA Générative en Entreprise | Beyond Expertise",
@@ -1374,7 +1756,7 @@
       "level": "Business Standard au minimum pour pouvoir accéder à Google Gemini et NotebookLM.Une connaissance de base de la suite Google Workspace (Gmail, Docs, Sheets) est recommandée pour maximiser le bénéfice des ateliers pratiques.J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le",
       "format": "ionsDécouvrez PLBVotre",
       "location": "Paris",
-      "nextSession": "29/05/2026",
+      "nextSession": "02/07/2026",
       "priceText": "950€ HT",
       "priceFromCents": 95000,
       "description": "Cette formation vous apprend à intégrer les outils d&#x27;IA de Google dans vos flux de travail quotidiens.",
@@ -1437,7 +1819,7 @@
       "categoryName": "intelligence artificielle",
       "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
       "format": "ionsDécouvrez PLBVotre",
-      "location": "xPériode",
+      "location": "Paris",
       "nextSession": "29/06/2026",
       "priceText": "1 790€ HT",
       "priceFromCents": 179000,
@@ -1511,8 +1893,8 @@
       "categoryName": "intelligence artificielle",
       "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
       "format": "ionsDécouvrez PLBVotre",
-      "location": "xPériode",
-      "nextSession": "22/06/2026",
+      "location": "Paris",
+      "nextSession": "01/07/2026",
       "priceText": "2 090€ HT",
       "priceFromCents": 209000,
       "description": "Cette formation Deep Learning par la Pratique vous permet d&#x27;acquérir est une compréhension détaillée des principales architectures de réseaux de neurones au travers de travaux pratiques.",
@@ -1598,7 +1980,7 @@
       "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
       "format": "ionsDécouvrez PLBVotre",
       "location": "xPériode",
-      "nextSession": "23/04/2026",
+      "nextSession": "07/09/2026",
       "priceText": "1 590€ HT",
       "priceFromCents": 159000,
       "description": "Cette formation IA pour développeur vous apprend exploiter pleinement l’IA, tout en gardant le contrôle et la maîtrise sur vos développements.",
@@ -1661,7 +2043,7 @@
       "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
       "format": "ionsDécouvrez PLBVotre",
       "location": "xPériode",
-      "nextSession": "04/05/2026",
+      "nextSession": "13/08/2026",
       "priceText": "990€ HT",
       "priceFromCents": 99000,
       "description": "Cette formation IA Stratégie Commerciale vous apprend à intégrer l’IA dans votre stratégie commerciale pour optimiser vos ventes, fidéliser vos clients et exploiter vos données.",
@@ -1713,7 +2095,7 @@
       "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
       "format": "ionsDécouvrez PLBVotre",
       "location": "Paris",
-      "nextSession": "13/05/2026",
+      "nextSession": "12/06/2026",
       "priceText": "1 050€ HT",
       "priceFromCents": 105000,
       "description": "Cette formation IA Act vous permet de comprendre les enjeux de l&#x27;IA Act.",
@@ -1770,7 +2152,562 @@
       ],
       "seoTitle": "IA Act : Déployer un système d'Intelligence Artificielle conforme au règlement IA (IA Act) | Beyond Expertise",
       "seoDescription": "IA Act : Déployer un système d'Intelligence Artificielle conforme au règlement IA (IA Act) avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. IA Act : Déployer un système d'Intelligence Artificielle conforme au règlement IA (IA Act) permet de "
+    },
+    {
+      "sourceUrl": "https://www.plb.fr/formation/python",
+      "slug": "opyt-python-programmation-objet",
+      "title": "Python, programmation objet",
+      "reference": "OPYT",
+      "categoryName": "developpement",
+      "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
+      "format": "ionsDécouvrez PLBVotre",
+      "location": "xPériode",
+      "nextSession": "08/06/2026",
+      "priceText": "3 050€ HT",
+      "priceFromCents": 305000,
+      "description": "Cette formation Python PLB a pour objectif de vous faire connaître les possibilités du langage Python, et de savoir écrire les programmes de base.",
+      "summary": "Python, programmation objet permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette formation Python PLB a pour objectif de vous faire connaître les possibilités du langage Python, et de savoir écrire les programmes de base.",
+      "audience": "protected, private)Le mécanisme de traitement des exceptionsExemple de formalisme UML (diagramme de classe)Tour d’horizon des classes fondamentales existantes en PythonNotion de Design PatternsTravaux pratiquesObjectifs : Comprendre quand utiliser l’héritage, le polymorphisme et la composition dans notre conception d’application Python Description : On enrichit le cahier des charges de notre application pour faire apparaitre de nouveaux besoins qui amènent à faire des choix d’héritage, de polymorphisme, etc. avec par exemple une classe TransactionRécurrente qui hérite de Transaction et des concepts de validation de transaction (source, auteur, est_validée par, …)Types de données évoluésSavoir choisir les bonnes structures de donnéesTuples, séquences et listes (append, extend, insert, ...)Fonctions utiles avec les listes (filter, map, reduce)Gestion des piles ou des filesLa puissance des dictionnaires (tableaux associatifs)Construire une liste sur la base d'une expression (compréhension)Travaux pratiquesObjectif : Savoir utiliser les listes en PythonDescription : On reprend notre fichier CSV contenant des transactions bancaires (date, libellé, montant, catégorie) et on le stocke dans un tuple pour figer les valeurs. On ajoute ensuite ces tuples à une liste de transactions que l’on analyse avec map, filter, et reduce pour ne garder que des transactions supérieures à un certain montant et les convertir en dollars. Ensuite reduce permet de calculer le total global dépenses. On créé ensuite une liste des catégories où les dépenses dépassent 1000€ et une pile pour simuler une liste d’actions utilisateurs pour annuler les dernières opérations.Jour 3Compléments sur le langage PythonGénérateurs et itérateursScripts exécutablesOpérateurs associés aux listesEnchaînement de tests par rapport aux listesComparer les séquencesTravaux pratiquesObjectif : Savoir utiliser les itérateursDescription : Création d’une classe portefeuille avec itérateur. Elle contient une liste de transactions et permet d’itérer sur les transactions par date croissante.Les modules de PythonPhilosophie de Python avec les modules (standard, tiers, ...) Tour d'horizon des modules standards Module re (expressions rationnelles)Modules os et sys (services du système d'exploitation)Module csv (fichiers structurés par séparateur)Comment trouver les modules ?Installer des modules tiers (setuptools, EasyInstall)Le dépôt central : Python Package index (Pypi)Importer des modulesMieux gérer son environnement avec venv, pipx, poetry ou pip-toolsTravaux pratiquesObjectif : Savoir structurer son application en modules pour la rendre plus lisible et facile à maintenirDescription : On crée un module pour nos classes (le modèle des données), un module pour les services offerts (filtrage, calculs, résumé, etc.), un module dédié aux entrées/sorties (chargement/sauvegarde de notre CSV dans notre projet). On utilise bien sûr des modules standards comme CSV ou RE (filtrages des données avec les expressions régulières) pour montrer comment les modules existants cohabitent avec nos propres modules.Jour 4Gestion des données (Fichiers, SGBD, XML, JSON, API)Accéder aux fichiers (objet File)Conformité des modules Python pour accéder à une base de données (DB-APIPython et requêtes SQL, ORM avec SQLAlchemFiltrer les données grâce aux expressions régulière (RE)Présentation de la manipulation de flux XMl en Python (ElementTree)Manipuler des fichiers CSVTravaux pratiquesObjectif : Connexion à une base de données pour extraire ou sauvegarder des donnéesDescription : Notre application évolue et on abandonne notre CSV pour dialoguer avec une base de données (MySQL ou PostgreSQL). On complète donc l’exercice précédent en construisant une classe TransactionDao dans notre module dédié aux entrées sorties, qui permet toutes les actions standards sur la table Transaction (insérer, mettre à jour, supprimer, lister, rechercher).Échange de données via API et formats standardsLe format JSON : encodage/décodage, gestion de structures complexeSérialisation avec dataclasses et pydantiPrincipe des API et des Web ServiceRequêtes HTTP avec requests (GET, POST, headers, paramètresRécupérer des données via des API externeTraitement et validation des données reçues (modèles Pydantic, typage fort, gestion des erreurs)Travaux pratiquesObjectif : Consommer une API REST dans un programme Python et intégrer « proprement » les données dans son application.Description : On cherche à actualiser en temps réel notre application avec des actualités économiques. Pour cela on va appeler une API publique qui nous retourne un taux de change au format JSON. On définit un modèle de validation avec Pydantic et on créé 2 classes TauxChange et Reponse API. Affichage ou traitement des données dans le terminal ou via un petit script CLI. Bonus : exporter les résultats vers un fichier CSV ou JSON local.Jour 5Création d’interface graphiqueSpécificités du développement d’interface graphique (programmation événementielle)Présentation de la bibliothèque TkInter.Les principaux conteneurs.Présentation des widgets disponibles (Button, Radiobutton, Entry, Label, Listbox, Canvas, Menu, Scrollbar, Text...).Le gestionnaire de fenêtres.Le placement des composants, les différents layouts.La gestion des événements, l'objet event.Les applications multifenêtres.Un petit mot sur la bibliothèque QtLes autres librairies d’IHM (PyQt, PySide, ..) les IHM web (flask/streamlit)Travaux pratiquesObjectif : Mettre en œuvre une IHM en Python avec TkInterDescription : Développement d’une maquette pour compléter l’atelier précédent sous forme graphique (menu, boîtes de dialogue, liste, boutons, …) afin de proposer une interface pour la saisie des actions de manipulations des données et l’affichage des résultatsQualité et outilsEn quoi consiste l’assurance qualité d’un programme Python (QA) ?Vue d’ensemble de la « trousse à outils » proposée au développeur Utiliser les plugins des IDEs IntelliJ ou VSCodeRechercher des bugs avec PyCheckerVérifier le respect des standards avec PyLintUtiliser le guide de style PEP 8 (Python Enhancement Proposals)Générer de la documentationDisposer de statistiques sur l’exécution de son programme (profiling)Comprendre l'intérêt des outils de Tests (Doctests, Unit tests)Travaux pratiquesObjectif : Bien comprendre le champ fonctionnel de chaque outil présenté dans ce chapitre et savoir les utiliserDescription : Audit de code Python ne respectant pas les standards professionnels en termes de lisibilité. Bonnes pratiques dans le déboguage d’un programme. Mise en œuvre de tests unitaires simples dans le cadre de notre projet fil rouge. Génération de documentation. Repérage des parties consommatrices d’un programme Python d’analyse de données (profiling de notre application fil rouge).Public et",
+      "prerequisites": "Les participants à cette formation doivent connaître un langage de programmation, car la formation ne prévoit pas de revenir sur les bases de la programmation (variables, test, boucle, fonction…). L’assimilation de ces concepts en même temps que la syntaxe de Python reste cependant possible mais constitue un risque pédagogique important.Il est souhaitable (mais pas indispensable) de connaître la programmation objet car la formation prend le temps de présenter les concepts objets fondamentaux (classe, objet, instance, propriétés, méthodes, héritage) puis dans un second temps leur mise en œuvre en Python.J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Travaux pratiquesL’approche pédagogique repose sur un apprentissage par la pratique structurée autour d’un projet fil rouge parlant à tout le monde (transaction bancaire) et surtout facile à adapter aux univers des différents participants (banque, assurance, compta, scientifique, médical, …) à partir du moment où les données se présentent sous forme matricielle il suffit de changer les thématiques des colonnes à son propre contexte métier. Ici la formation cherche à décliner les objectifs pédagogiques de façon progressive en posant toujours une problématique avant d’y répondre. Les concepts ne sont jamais « imposés » ils sont devinés par les participants que l’on essaie de guider autour de leur propre réflexion. Ensuite la syntaxe Python se retient naturellement ou en tout cas se retrouve plus facilement tout seul après la formation.Dans cet esprit l’apport de la programmation objet est introduit par les problématiques posées par une approche non objet, de même qu’on aborde l’intérêt des structures de données proposées par Python en se posant la question comment ferait-on sans les listes, les tuples, les tableaux, etc. ? Comment on organise notre code Python sans les modules ? De même qu’on réfléchira avec les participants sur les spécificités d’un flux de données (stream) et comment le gérer pour un développeur avant de présenter les solutions proposées par Python. ll est donc important de préciser systématiquement pourquoi on fait tel ou tel TP (objectifs) avant d’en détailler le contenu technique afin d’être cohérent avec cette démarche de poser une problématique avant d’y répondre. Mais cela est facilité par notre ingénierie pédagogique qui part du TP pour construire les explications théoriques nécessaires à sa réalisation et non l’inverse.Date de mise à jour du",
+      "objectives": [],
+      "programSections": [
+        {
+          "title": "Objectifs de la formation",
+          "bullets": [
+            "Comprendre les bases du langage Python et son écosystème",
+            "Acquérir les principes de la programmation objet",
+            "Comprendre et utiliser les fonctions et modules",
+            "Concevoir des interfaces graphiques",
+            "Utiliser les outils de test et d'évaluation de la qualité d'un programme Python"
+          ]
+        },
+        {
+          "title": "Contenu du cours python",
+          "bullets": []
+        },
+        {
+          "title": "Bien commencer avec Python",
+          "bullets": []
+        },
+        {
+          "title": "Les bases de Python (la syntaxe, les types)",
+          "bullets": []
+        },
+        {
+          "title": "Programmer objet en Python",
+          "bullets": []
+        },
+        {
+          "title": "Types de données évolués",
+          "bullets": []
+        },
+        {
+          "title": "Compléments sur le langage Python",
+          "bullets": []
+        },
+        {
+          "title": "Les modules de Python",
+          "bullets": []
+        },
+        {
+          "title": "Gestion des données (Fichiers, SGBD, XML, JSON, API)",
+          "bullets": []
+        },
+        {
+          "title": "Échange de données via API et formats standards",
+          "bullets": []
+        },
+        {
+          "title": "Création d’interface graphique",
+          "bullets": []
+        },
+        {
+          "title": "Qualité et outils",
+          "bullets": []
+        },
+        {
+          "title": "Public et prérequis",
+          "bullets": []
+        },
+        {
+          "title": "Travaux pratiques",
+          "bullets": []
+        }
+      ],
+      "seoTitle": "Python, programmation objet | Beyond Expertise",
+      "seoDescription": "Python, programmation objet avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : protected, private)Le mécanisme de traitement des exceptionsExemple de formalisme UML (diagramme de classe)Tour d’horizon des classes fondamentales existantes en Python"
+    },
+    {
+      "sourceUrl": "https://www.plb.fr/formation/spring-boot-angular",
+      "slug": "jdsa-spring-boot-et-angular-developper-des-applications-web-avec-spring-boot-et-angular",
+      "title": "Spring Boot et Angular : Développer des applications Web avec Spring Boot et Angular",
+      "reference": "JDSA",
+      "categoryName": "developpement",
+      "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
+      "format": "ionsDécouvrez PLBVotre",
+      "location": "xPériode",
+      "nextSession": "05/08/2026",
+      "priceText": "2 090€ HT",
+      "priceFromCents": 209000,
+      "description": "Cette formation Spring Boot et Angular vous permet de devenir opérationnel pour mener à bien un projet avec Spring Boot et Angular.",
+      "summary": "Spring Boot et Angular : Développer des applications Web avec Spring Boot et Angular permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette formation Spring Boot et Angular vous permet de devenir opérationnel pour mener à bien un projet avec Spring Boot et Angular.",
+      "audience": "et",
+      "prerequisites": "Pour suivre cette formation SpringBoot et Angular, une connaissance préalable minimale de Spring Boot et d'Angular est indispensable.J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Date de mise à jour du",
+      "objectives": [],
+      "programSections": [
+        {
+          "title": "Objectifs de la formation",
+          "bullets": [
+            "Mener à bien un projet SpringBoot/Angular",
+            "Sécuriser une API Rest avec un modèle stateless",
+            "Mettre en place la sécurité côté client Angular",
+            "Adopter une approche « Design By Contract »",
+            "Savoir tester séparément le service back-end Spring et le client Angular"
+          ]
+        },
+        {
+          "title": "Contenu du cours Spring Boot Angular",
+          "bullets": []
+        },
+        {
+          "title": "Introduction à Spring Boot et Angular",
+          "bullets": []
+        },
+        {
+          "title": "Design by Contract",
+          "bullets": []
+        },
+        {
+          "title": "RestController Spring",
+          "bullets": []
+        },
+        {
+          "title": "Client HTTP Angular",
+          "bullets": []
+        },
+        {
+          "title": "Sécurité",
+          "bullets": []
+        },
+        {
+          "title": "Public et prérequis",
+          "bullets": []
+        }
+      ],
+      "seoTitle": "Spring Boot et Angular : Développer des applications Web avec Spring Boot et Angular | Beyond Expertise",
+      "seoDescription": "Spring Boot et Angular : Développer des applications Web avec Spring Boot et Angular avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. Spring Boot et Angular : Développer des applications Web avec Spring Boot et Angular permet de structurer u"
+    },
+    {
+      "sourceUrl": "https://www.plb.fr/formation/spring-boot",
+      "slug": "jdsb-spring-boot-accelerez-vos-developpements-avec-spring-boot",
+      "title": "Spring Boot : Accélérez vos développements avec Spring Boot",
+      "reference": "JDSB",
+      "categoryName": "developpement",
+      "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
+      "format": "ionsDécouvrez PLBVotre",
+      "location": "xPériode",
+      "nextSession": "22/06/2026",
+      "priceText": "2 090€ HT",
+      "priceFromCents": 209000,
+      "description": "Avec cette formation Spring Boot, apprenez à accélérer la mise en production de vos applications en développement avec Spring.",
+      "summary": "Spring Boot : Accélérez vos développements avec Spring Boot permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Avec cette formation Spring Boot, apprenez à accélérer la mise en production de vos applications en développement avec Spring.",
+      "audience": "et",
+      "prerequisites": "Pour suivre cette formation, il est demandé de connaître Java. J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Travaux pratiques Les travaux pratiques s'appuient sur l’IDE Spring Tools Suite. Voici quelques détails des travaux pratiques mis en place durant la formation: Installation Configuration : Familirisation avec les fichiers application.properties/.yml, la notion de profils, la prise en main de l’IDE SpringData : La notion de Repository, les retours sur JPA et Hibernate, l'application à un support NoSQL comme MongoDB SpringData Rest : La mise en place d’une API Rest (HATEOAS) avec Spring Data Rest, discussions Spring MVC : Mini application web avec Thymeleaf, mise en place de la sécurité Spring MVC REST : Développements de contrôleur REST. Annotations Jackson et problématique de sérialisation. Le patter DTO et les ObjectMappers Spring et les Tests : Tests unitaires et mock objects, Tests d’intégration avec Tomcat et HSQL embarqués, Tests sérialisation JSON Actuator : Mise en place de Actuator Date de mise à jour du",
+      "objectives": [],
+      "programSections": [
+        {
+          "title": "Objectifs de la formation",
+          "bullets": [
+            "Les fonctionnalités du framework",
+            "Son intégration dans l’IDE Spring Tool Suite",
+            "Ses apports pour les différentes couches applicatives (JPA, Rest/MVC, Test) et pour la mise en production d’application."
+          ]
+        },
+        {
+          "title": "Contenu du cours Spring Boot",
+          "bullets": []
+        },
+        {
+          "title": "Introduction à Spring Boot",
+          "bullets": []
+        },
+        {
+          "title": "Premiers pas avec Spring Boot",
+          "bullets": []
+        },
+        {
+          "title": "Persistance des données avec Spring Data",
+          "bullets": []
+        },
+        {
+          "title": "Applications Web et API Rest avec Spring MVC",
+          "bullets": []
+        },
+        {
+          "title": "Spring Boot et le test",
+          "bullets": []
+        },
+        {
+          "title": "Auto-configuration",
+          "bullets": []
+        },
+        {
+          "title": "Mise en production",
+          "bullets": []
+        },
+        {
+          "title": "Sécurité et Spring Boot",
+          "bullets": []
+        },
+        {
+          "title": "Public et prérequis",
+          "bullets": []
+        },
+        {
+          "title": "Travaux pratiques",
+          "bullets": [
+            "Installation",
+            "Configuration : Familirisation avec les fichiers application.properties/.yml, la notion de profils, la prise en main de l’IDE",
+            "SpringData : La notion de Repository, les retours sur JPA et Hibernate, l'application à un support NoSQL comme MongoDB",
+            "SpringData Rest : La mise en place d’une API Rest (HATEOAS) avec Spring Data Rest, discussions",
+            "Spring MVC : Mini application web avec Thymeleaf, mise en place de la sécurité",
+            "Spring MVC REST : Développements de contrôleur REST. Annotations Jackson et problématique de sérialisation. Le patter DTO et les ObjectMappers",
+            "Spring et les Tests : Tests unitaires et mock objects, Tests d’intégration avec Tomcat et HSQL embarqués, Tests sérialisation JSON",
+            "Actuator : Mise en place de Actuator"
+          ]
+        }
+      ],
+      "seoTitle": "Spring Boot : Accélérez vos développements avec Spring Boot | Beyond Expertise",
+      "seoDescription": "Spring Boot : Accélérez vos développements avec Spring Boot avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. Spring Boot : Accélérez vos développements avec Spring Boot permet de structurer une montée en compétence opérationnelle autour des "
+    },
+    {
+      "sourceUrl": "https://www.plb.fr/formation/python-analyse-donnees",
+      "slug": "oapy-decouvrir-python-et-l-analyse-de-donnees",
+      "title": "Découvrir Python et l'analyse de données",
+      "reference": "OAPY",
+      "categoryName": "developpement",
+      "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
+      "format": "ionsDécouvrez PLBVotre",
+      "location": "xPériode",
+      "nextSession": "08/06/2026",
+      "priceText": "3 050€ HT",
+      "priceFromCents": 305000,
+      "description": "Cette formation Analyse de données en Python vous permet de découvrir le langage Python, langage particulièrement bien adapté à toutes sortes de problèmes d’analyse de données.",
+      "summary": "Découvrir Python et l'analyse de données permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette formation Analyse de données en Python vous permet de découvrir le langage Python, langage particulièrement bien adapté à toutes sortes de problèmes d’analyse de données.",
+      "audience": "et",
+      "prerequisites": "Pour suivre cette formation d'Analyse de données, il est nécessaire de connaître au moins un langage de programmation.J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Travaux pratiquesCe cours alterne théorie et travaux pratiques pour une meilleure assimilation et application des notions présentées lors de ce stage.Ces ateliers permettront aux participants de réaliser des",
+      "objectives": [],
+      "programSections": [
+        {
+          "title": "Objectifs de la formation",
+          "bullets": [
+            "Maîtriser les bases du langage Python",
+            "Connaitre les aspects avancés en Python",
+            "Savoir analyser des données en Python",
+            "Savoir faire une représentation graphique de données en Python",
+            "Acquérir des données externes en Python",
+            "Comprendre les performances et la parallélisation"
+          ]
+        },
+        {
+          "title": "Contenu du cours Python Analyse donnees",
+          "bullets": []
+        },
+        {
+          "title": "Les bases du langage Python",
+          "bullets": []
+        },
+        {
+          "title": "Aspects avancés en Python",
+          "bullets": []
+        },
+        {
+          "title": "Introduction à l’Analyse de Données en Python",
+          "bullets": []
+        },
+        {
+          "title": "La représentation graphique de données en Python",
+          "bullets": []
+        },
+        {
+          "title": "L’acquisition de données externes en Python",
+          "bullets": []
+        },
+        {
+          "title": "Analyses Statistiques en Python",
+          "bullets": []
+        },
+        {
+          "title": "Performances et parallélisation",
+          "bullets": []
+        },
+        {
+          "title": "Public et prérequis",
+          "bullets": []
+        },
+        {
+          "title": "Travaux pratiques",
+          "bullets": []
+        }
+      ],
+      "seoTitle": "Découvrir Python et l'analyse de données | Beyond Expertise",
+      "seoDescription": "Découvrir Python et l'analyse de données avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. Découvrir Python et l'analyse de données permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques a"
+    },
+    {
+      "sourceUrl": "https://www.plb.fr/formation/nouveautes-java-11-java-17",
+      "slug": "jn117-actualisation-de-java-11-a-java-17",
+      "title": "Actualisation de Java 11 à Java 17",
+      "reference": "JN117",
+      "categoryName": "developpement",
+      "level": "1 - Certified Professional Java SE 11 Developer (JCJ11) et Certification Java 11 niveau 2 - Certified Professional Java SE 11 Developer (JCJ11B). L'inscription aux examens officiels peut se faire librement depuis le site Pearson Vue. Cette plate-forme indépendante",
+      "format": "ionsDécouvrez PLBVotre",
+      "location": "xPériode",
+      "nextSession": "08/06/2026",
+      "priceText": "1 590€ HT",
+      "priceFromCents": 159000,
+      "description": "Cette formation Nouveautés Java 11 et Java 17 vous enseigne quelles sont les nouveautés des dernières versions LTS (Long Term Support) de Java.",
+      "summary": "Actualisation de Java 11 à Java 17 permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette formation Nouveautés Java 11 et Java 17 vous enseigne quelles sont les nouveautés des dernières versions LTS (Long Term Support) de Java.",
+      "audience": "et",
+      "prerequisites": "Cette formation présente les nouveautés de Java 11 et Java 17 pour un profil maîtrisant déjà le langage Java. Pour suivre cette formation, il est donc indispensable de bien connaître la version Java 8. J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Travaux pratiques Cette formation alterne pratique et théorie pour une meilleure assimilation des connaissances. Certification Oracle Certified Professional Java SE 11 Developper Cette formation peut servir de passerelle pour obtenir les compétences et connaissances propres à l'examen de certification Java SE 11 Developper. Pour préparer pleinement cette certification, il est malgré tout nécessaire de suivre également les formations Certification Java 11 niveau 1 - Certified Professional Java SE 11 Developer (JCJ11) et Certification Java 11 niveau 2 - Certified Professional Java SE 11 Developer (JCJ11B). L'inscription aux examens officiels peut se faire librement depuis le site Pearson Vue. Cette plate-forme indépendante est accessible pour tous les parcours de formation : auto-formation, cours en ligne, cours présentiel. Dans le cas où vous souhaiteriez vous inscrire à l'examen de certification à la suite de la formation, PLB vous propose de vous accompagner pour toutes vos démarches administratives sur la plate-forme. N'hésitez pas à solliciter notre service commercial pour plus d'informations. Date de mise à jour du",
+      "objectives": [],
+      "programSections": [
+        {
+          "title": "Objectifs de la formation",
+          "bullets": [
+            "Connaitre les nouveautés apportées par les versions de Java 9 et ultérieures.",
+            "Connaître, version après version, les nouveautés apportées aux dernières versions LTS de Java",
+            "Mettre en pratique les nouveautés significatives et les plus importantes"
+          ]
+        },
+        {
+          "title": "Contenu du cours Nouveautes Java 11 Java 17",
+          "bullets": []
+        },
+        {
+          "title": "Nouveautés essentielles de Java 11",
+          "bullets": []
+        },
+        {
+          "title": "Nouveautés principales de Java 17",
+          "bullets": []
+        },
+        {
+          "title": "Public et prérequis",
+          "bullets": []
+        },
+        {
+          "title": "Travaux pratiques",
+          "bullets": []
+        },
+        {
+          "title": "Certification Oracle Certified Professional Java SE 11 Developper",
+          "bullets": []
+        }
+      ],
+      "seoTitle": "Actualisation de Java 11 à Java 17 | Beyond Expertise",
+      "seoDescription": "Actualisation de Java 11 à Java 17 avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. Actualisation de Java 11 à Java 17 permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur "
+    },
+    {
+      "sourceUrl": "https://www.plb.fr/formation/design-patterns",
+      "slug": "scdp-design-patterns-conception-avec-les-design-patterns",
+      "title": "Design Patterns : Conception avec les Design Patterns",
+      "reference": "SCDP",
+      "categoryName": "developpement",
+      "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
+      "format": "ionsDécouvrez PLBVotre",
+      "location": "xPériode",
+      "nextSession": "06/07/2026",
+      "priceText": "3 050€ HT",
+      "priceFromCents": 305000,
+      "description": "Cette formation Design Patterns vous présente les différents patrons de conception (structurels, comportementaux, créateurs...) et vous apprend à les mettre en œuvre dans un contexte Java.",
+      "summary": "Design Patterns : Conception avec les Design Patterns permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette formation Design Patterns vous présente les différents patrons de conception (structurels, comportementaux, créateurs...) et vous apprend à les mettre en œuvre dans un contexte Java.",
+      "audience": "et",
+      "prerequisites": "Les participants à cette formation Design Patterns doivent disposer d’une solide expérience en programmation orientée objet (Java, C++...). Une confrontation préalable à l’un de ces langages vous aura permis d’assimiler les problématiques de développement et de conception les plus courantes. Les bénéfices des design patterns en seront d’autant plus appréciés. J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Date de mise à jour du",
+      "objectives": [],
+      "programSections": [
+        {
+          "title": "Objectifs de la formation",
+          "bullets": [
+            "Connaître l’origine, la philosophie et l’utilité des Design Patterns",
+            "Connaître les trois grandes familles de patterns et les principaux patrons au sein de chacune de ces familles",
+            "Savoir identifier, pour un problème donné, le patron de conception le plus à même de solutionner le problème",
+            "Savoir appliquer de manière concrète le design pattern ainsi identifié"
+          ]
+        },
+        {
+          "title": "Contenu du cours Design Patterns",
+          "bullets": []
+        },
+        {
+          "title": "Les fondamentaux de l’orienté objet et UML",
+          "bullets": []
+        },
+        {
+          "title": "Comprendre les Design Patterns",
+          "bullets": []
+        },
+        {
+          "title": "Les Patterns créateurs",
+          "bullets": []
+        },
+        {
+          "title": "Les Patterns structuraux",
+          "bullets": []
+        },
+        {
+          "title": "Les Patterns comportementaux",
+          "bullets": []
+        },
+        {
+          "title": "Les GRASP patterns (General Responsibility Assignment Software Patterns)",
+          "bullets": []
+        },
+        {
+          "title": "Design patterns pour les micro-services",
+          "bullets": []
+        },
+        {
+          "title": "Public et prérequis",
+          "bullets": []
+        }
+      ],
+      "seoTitle": "Design Patterns : Conception avec les Design Patterns | Beyond Expertise",
+      "seoDescription": "Design Patterns : Conception avec les Design Patterns avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. Design Patterns : Conception avec les Design Patterns permet de structurer une montée en compétence opérationnelle autour des usages, méth"
+    },
+    {
+      "sourceUrl": "https://www.plb.fr/formation/quarkus",
+      "slug": "damq-quarkus-batir-une-architecture-microservices-avec-quarkus",
+      "title": "Quarkus : bâtir une architecture microservices avec Quarkus",
+      "reference": "DAMQ",
+      "categoryName": "developpement",
+      "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
+      "format": "ionsDécouvrez PLBVotre",
+      "location": "xPériode",
+      "nextSession": "17/06/2026",
+      "priceText": "2 090€ HT",
+      "priceFromCents": 209000,
+      "description": "Cette formation Quarkus vous apprend à développer des microservices avec Quarkus et les déployer dans le cloud.",
+      "summary": "Quarkus : bâtir une architecture microservices avec Quarkus permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette formation Quarkus vous apprend à développer des microservices avec Quarkus et les déployer dans le cloud.",
+      "audience": "et",
+      "prerequisites": "Pour suivre cette formation Quarkus, il est nécessaire de savoir développer en Java, de posséder une connaissance des architectures Web, une connaissance du protocole HTTP et des concepts REST, ainsi que d'avoir des notions de déploiement de conteneurs. J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Travaux pratiques La formation se compose de 60% de théorie et de 40% de travaux pratiques. Divers outils et frameworks seront utilisés ou présentés durant la formation : Java SE, Maven, Docker, Microprofile, Quarkus, REST, JAX-RS, JSON-P, JSON-B, Kafka, Docker, Postgres, Junit. Date de mise à jour du",
+      "objectives": [],
+      "programSections": [
+        {
+          "title": "Objectifs de la formation",
+          "bullets": [
+            "Mettre en place un IDE et les outils de développement pour quarkus",
+            "Développer différents types de microservices avec Quarkus (API RestFul, Messagerie réactive, Client Rest)",
+            "Comprendre la compilation AOT et les phases de build d’une application Quarkus",
+            "Déployer et surveiller une architecture micro-services Quarkus vers Kubernetes"
+          ]
+        },
+        {
+          "title": "Contenu du cours Quarkus",
+          "bullets": []
+        },
+        {
+          "title": "Introduction",
+          "bullets": []
+        },
+        {
+          "title": "Développer avec Quarkus",
+          "bullets": []
+        },
+        {
+          "title": "API Restful avec Quarkus",
+          "bullets": []
+        },
+        {
+          "title": "Quarkus et la persistance",
+          "bullets": []
+        },
+        {
+          "title": "Messagerie",
+          "bullets": []
+        },
+        {
+          "title": "Sécurité",
+          "bullets": []
+        },
+        {
+          "title": "Déploiement d’applications Quarkus",
+          "bullets": []
+        },
+        {
+          "title": "Public et prérequis",
+          "bullets": []
+        },
+        {
+          "title": "Travaux pratiques",
+          "bullets": []
+        }
+      ],
+      "seoTitle": "Quarkus : bâtir une architecture microservices avec Quarkus | Beyond Expertise",
+      "seoDescription": "Quarkus : bâtir une architecture microservices avec Quarkus avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : et. Quarkus : bâtir une architecture microservices avec Quarkus permet de structurer une montée en compétence opérationnelle autour des "
+    },
+    {
+      "sourceUrl": "https://www.plb.fr/formation/uml",
+      "slug": "duac-uml-2-analyse-et-conception",
+      "title": "UML 2 - Analyse et conception",
+      "reference": "DUAC",
+      "categoryName": "developpement",
+      "level": "requis (Fondamental, Intermédiaire, Avancé) ainsi que les prérequis détaillés. En cas de doute, un test d'auto-évaluation",
+      "format": "ionsDécouvrez PLBVotre",
+      "location": "xPériode",
+      "nextSession": "22/06/2026",
+      "priceText": "2 490€ HT",
+      "priceFromCents": 249000,
+      "description": "Cette formation UML vous apprend à utiliser le langage UML et ses différents diagrammes de l&#x27;analyse à la conception à toutes les étapes d&#x27;un projet de développement logiciel.",
+      "summary": "UML 2 - Analyse et conception permet de structurer une montée en compétence opérationnelle autour des usages, méthodes et bonnes pratiques attendus sur le terrain. Cette formation UML vous apprend à utiliser le langage UML et ses différents diagrammes de l&#x27;analyse à la conception à toutes les étapes d&#x27;un projet de développement logiciel.",
+      "audience": "permettent d’illustrer\",\"url\":\"https://www.plb.fr/formation/uml\",\"inLanguage\":\"fr-FR\",\"teaches\":\"Objectifs pédagogiques : À l'issue de cette formation UML, vous aurez acquis les connaissances et compétences nécessaires pour : Comprendre le rôle des différents modèles UML selon les phases d’un projet Exprimer un besoin fonctionnel sous la forme d’un diagramme UML Mettre en œuvre la modélisation\",\"provider\":{\"@type\":\"Organization\",\"name\":\"PLB\",\"url\":\"https://www.plb.fr\"},\"offers\":{\"@type\":\"Offer\",\"category\":\"Paid\",\"price\":2490,\"priceCurrency\":\"EUR\",\"availability\":\"https://schema.org/InStock\",\"url\":\"https://www.plb.fr/formation/uml\"},\"hasCourseInstance\":[{\"@type\":\"CourseInstance\",\"startDate\":\"2026-06-11\",\"endDate\":\"2026-06-14\",\"location\":{\"@type\":\"VirtualLocation\",\"name\":\"En ligne\"},\"courseMode\":\"online\",\"courseWorkload\":\"P4D\",\"instructor\":{\"@type\":\"Organization\",\"name\":\"PLB\",\"url\":\"https://www.plb.fr\"}},{\"@type\":\"CourseInstance\",\"startDate\":\"2026-06-11\",\"endDate\":\"2026-06-14\",\"location\":{\"@type\":\"Place\",\"name\":\"Paris\"},\"courseMode\":\"onsite\",\"courseWorkload\":\"P4D\",\"instructor\":{\"@type\":\"Organization\",\"name\":\"PLB\",\"url\":\"https://www.plb.fr\"}},{\"@type\":\"CourseInstance\",\"startDate\":\"2026-08-20\",\"endDate\":\"2026-08-23\",\"location\":{\"@type\":\"VirtualLocation\",\"name\":\"En ligne\"},\"courseMode\":\"online\",\"courseWorkload\":\"P4D\",\"instructor\":{\"@type\":\"Organization\",\"name\":\"PLB\",\"url\":\"https://www.plb.fr\"}},{\"@type\":\"CourseInstance\",\"startDate\":\"2026-08-20\",\"endDate\":\"2026-08-23\",\"location\":{\"@type\":\"Place\",\"name\":\"Paris\"},\"courseMode\":\"onsite\",\"courseWorkload\":\"P4D\",\"instructor\":{\"@type\":\"Organization\",\"name\":\"PLB\",\"url\":\"https://www.plb.fr\"}},{\"@type\":\"CourseInstance\",\"startDate\":\"2026-10-01\",\"endDate\":\"2026-10-04\",\"location\":{\"@type\":\"VirtualLocation\",\"name\":\"En ligne\"},\"courseMode\":\"online\",\"courseWorkload\":\"P4D\",\"instructor\":{\"@type\":\"Organization\",\"name\":\"PLB\",\"url\":\"https://www.plb.fr\"}},{\"@type\":\"CourseInstance\",\"startDate\":\"2026-10-01\",\"endDate\":\"2026-10-04\",\"location\":{\"@type\":\"Place\",\"name\":\"Paris\"},\"courseMode\":\"onsite\",\"courseWorkload\":\"P4D\",\"instructor\":{\"@type\":\"Organization\",\"name\":\"PLB\",\"url\":\"https://www.plb.fr\"}},{\"@type\":\"CourseInstance\",\"startDate\":\"2026-12-03\",\"endDate\":\"2026-12-06\",\"location\":{\"@type\":\"VirtualLocation\",\"name\":\"En ligne\"},\"courseMode\":\"online\",\"courseWorkload\":\"P4D\",\"instructor\":{\"@type\":\"Organization\",\"name\":\"PLB\",\"url\":\"https://www.plb.fr\"}},{\"@type\":\"CourseInstance\",\"startDate\":\"2026-12-03\",\"endDate\":\"2026-12-06\",\"location\":{\"@type\":\"Place\",\"name\":\"Paris\"},\"courseMode\":\"onsite\",\"courseWorkload\":\"P4D\",\"instructor\":{\"@type\":\"Organization\",\"name\":\"PLB\",\"url\":\"https://www.plb.fr\"}}],\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":4.5833001136779785,\"reviewCount\":12,\"bestRating\":5,\"worstRating\":1}}{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Formations\",\"item\":\"https://www.plb.fr/formations\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Langages et Développement\",\"item\":\"https://www.plb.fr/filiere/developpement\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Programmation\",\"item\":\"https://www.plb.fr/categorie/programmation\"},{\"@type\":\"ListItem\",\"position\":4,\"name\":\"UML 2 - Analyse et conception\"}]}FormationsLangages et DéveloppementProgrammationDomaineInformatiqueFormatsCours pratiqueUML 2 - Analyse et conceptionREF : DUAC4,6/5Avec 12 avisInterIntraSur-mesureRegroupe des participants de différentes entreprises autour d'un même programme, à dates fixes.Durée :4 joursNiveau :FondamentalLieu :ParisFormat :Présentiel / Distanciel2 490€ HTChoisir et réserverDemander un devisDescription de la formation UML Le langage de modélisation unifié UML (Unified Modeling Language) a été pensé pour proposer un langage visuel commun, et normalisé pour décrire un système logiciel principalement en conception orienté objet. Concrètement plusieurs diagrammes accessibles à un large public permettent d’illustrer toutes les étapes quantifiables d’un projet de développement. Cette formation UML vous propose de comprendre la représentation et l'intérêt d'utilisation des diagrammes les plus pertinents habituellement utilisés dans les projets professionnels afin de vous aider à formaliser l’analyse et la conception de vos applications ou de votre système d’information. Programme de la formationObjectifs de la formation Objectif opérationnel : Savoir utiliser le langage UML et ses différents diagrammes de l’analyse à la conception (cas d’utilisation, classes, objets, communication, etc.) à toutes les étapes d’un projet de développement logiciel dans le respect des bonnes pratiques. Objectifs pédagogiques : À l'issue de cette formation UML, vous aurez acquis les connaissances et compétences nécessaires pour : Comprendre le rôle des différents modèles UML selon les phases d’un projet Exprimer un besoin fonctionnel sous la forme d’un diagramme UML Mettre en œuvre la modélisation UML sur toutes les étapes d’un projet logiciel Maîtriser les bonnes pratiques de conception logicielle Contenu du cours UMLPremière journée Rappels sur l’approche objet Concepts et intérêt de l’approche objet Rôle de l’encapsulation Notion de classe, attribut, méthode Etat, identité, comportement d’un objet Classe abstraite Héritage, polymorphisme Panorama des langages objet Travaux pratiques Présentation d’un modèle de classes d’un site de commerce en ligne et échanges avec les participants Quizz pour valider qu’on dispose d’un vocabulaire objet commun Présentation d’UML 2 Intérêt de la modélisation Notion de modèle Activités de développement Présentation des 14 diagrammes d’UML2.5 Outils de modélisation Travaux pratiques Quiz de validation des connaissances sur le formalisme UML (symboles graphiques, noms) Deuxième journée Expression des besoins Diagramme des cas d'utilisation Comment élaborer un modèle des besoins ? Délimitation du système Définition des acteurs Définition des cas d'utilisation Relations entre cas d’utilisation Description des cas d'utilisation par les scénarios nominal et alternatifs Les meilleures pratiques pour élaborer un modèle des besoins Travaux pratiques Étude d’un système simple de type va-et-vient électrique et élaboration de son diagramme de cas d’utilisation Élaboration d’un diagramme de cas d’utilisation de l’application de commerce en ligne Troisième journée Les diagrammes de structure Présentation des diagrammes : de classes, d’objets, de packages, de structure composite, de composants, de déploiement Recherche de classes candidates Définir les relations entre classes : association, agrégation, composition, héritage Classes-association Définir la cardinalité des associations, leur navigabilité, les rôles Association qualifiée, rôle, contrainte Diagramme d'objets : liaison avec le diagramme de classes Diagrammes de packages, relations entre packages Autres diagrammes structurels: Diagramme de structure composite, de composants, de déploiement Collaborations Travaux pratiques Élaboration d’un diagramme de classes, de packages, de composants, de déploiement de l’application de commerce en ligne Quatrième journée Les diagrammes de comportements Présentation des diagrammes : de séquences, de communications, aperçu d’interactions, d’états-transitions, d’activités, de profils, de temps Différents messages entre objets, évènements États initial et final Rôles des classes entity, control, boundary États et sous-états, transition, entry, do, exit Actions, activités, contraintes, arguments Travaux pratiques Élaboration de plusieurs diagrammes de séquences, d’activité, états-transitions, de temps pour l’application de commerce en ligne Élaboration d’un diagramme de temps pour les feux tricolores à un carrefour Démarche objet de type UP « Unified Process » Préparation à la progression dans une démarche objet et sensibilisation à la pratique itérative et incrémentale. Élaborer les packages Mise en place des incréments Application de la démarche itérative Réutilisation des composants Les design patterns les plus connus Passage du diagramme de classes au modèle logique de la base de données. Indications pour l'utilisation d'outils comme PowerAMC, Visual Paradigm ou Visual Architect Travaux pratiques Simulation d’itérations avec livrables permettant l’expérimentation des utilisateurs ainsi que la validation technique de notre application de commerce en ligne. On simule le développement de plusieurs prototypes par approche incrémentale dans une démarche UP. Public et",
+      "prerequisites": "Toute expérience en analyse ou en conception d’applications facilitera la compréhension de la logique à l’œuvre dans UML, en particulier sur les aspects suivants : activité d’un objet ou d’un logiciel, acteurs, processus, schéma de base de données, composants logiciels, réutilisation de composants. Le vocabulaire et les concepts objets étant très liés à UML (exemple diagramme de classes), il est également recommandé de disposer d’une culture objet (à minima, savoir ce qu’est une classe, un objet, un attribut). J'évalue mes connaissances pour vérifier que je dispose des prérequis nécessaires pour profiter pleinement de cette formation en faisant le test de prérequis.Date de mise à jour du",
+      "objectives": [],
+      "programSections": [
+        {
+          "title": "Objectifs de la formation",
+          "bullets": [
+            "Comprendre le rôle des différents modèles UML selon les phases d’un projet",
+            "Exprimer un besoin fonctionnel sous la forme d’un diagramme UML",
+            "Mettre en œuvre la modélisation UML sur toutes les étapes d’un projet logiciel",
+            "Maîtriser les bonnes pratiques de conception logicielle"
+          ]
+        },
+        {
+          "title": "Contenu du cours UML",
+          "bullets": []
+        },
+        {
+          "title": "Rappels sur l’approche objet",
+          "bullets": []
+        },
+        {
+          "title": "Présentation d’UML 2",
+          "bullets": []
+        },
+        {
+          "title": "Expression des besoins",
+          "bullets": []
+        },
+        {
+          "title": "Les diagrammes de structure",
+          "bullets": []
+        },
+        {
+          "title": "Les diagrammes de comportements",
+          "bullets": []
+        },
+        {
+          "title": "Démarche objet de type UP « Unified Process »",
+          "bullets": []
+        },
+        {
+          "title": "Public et prérequis",
+          "bullets": []
+        }
+      ],
+      "seoTitle": "UML 2 - Analyse et conception | Beyond Expertise",
+      "seoDescription": "UML 2 - Analyse et conception avec Beyond Expertise • formation professionnelle structurée, orientée pratique et résultats • public : permettent d’illustrer\",\"url\":\"https://www.plb.fr/formation/uml\",\"inLanguage\":\"fr-FR\",\"teaches\":\"Objectifs pédagogiques : À l'issue de cette formation UML, vous aurez"
     }
   ],
-  "crawledAt": "2026-04-20T14:40:25.636Z"
+  "crawledAt": "2026-06-05T18:25:36.518Z"
 }

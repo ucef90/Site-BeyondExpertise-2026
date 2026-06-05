@@ -22,6 +22,7 @@
     "cheerio": "^1.2.0"
   },
   "devDependencies": {
+    "@playwright/test": "^1.60.0",
     "@types/node": "^22.10.1",
     "prettier": "^3.4.2",
     "prisma": "^6.5.0",

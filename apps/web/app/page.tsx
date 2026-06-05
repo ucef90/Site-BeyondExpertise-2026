@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, CheckCircle2, Search } from "lucide-react";
+import { ArrowRight, Award, CheckCircle2, Search, ShieldCheck, Star, ThumbsUp, Zap } from "lucide-react";
 import { FAQ } from "@/components/faq";
 import { TrainingCard } from "@/components/training-card";
 import { faqItems } from "@/lib/data";
@@ -9,12 +9,12 @@ const resourceHighlights = [
   {
     slug: "copilot",
     title: "Copilot en entreprise : cadrer les cas d'usage qui apportent vite de la valeur",
-    excerpt: "Une lecture orientee directions, PMO et fonctions support pour identifier les gains realsites et les garde-fous utiles."
+    excerpt: "Une lecture orientée directions, PMO et fonctions support pour identifier les gains réalistes et les garde-fous utiles."
   },
   {
     slug: "ai-security",
-    title: "IA et gouvernance : comment accelerer sans ouvrir de nouveaux risques",
-    excerpt: "Une synthese pour aligner innovation, conformite, securite et usages metier dans un meme cadre de decision."
+    title: "IA et gouvernance : comment accélérer sans ouvrir de nouveaux risques",
+    excerpt: "Une synthèse pour aligner innovation, conformité, sécurité et usages métier dans un même cadre de décision."
   },
   {
     slug: "lakehouse",
@@ -28,35 +28,39 @@ const advantageTabs = [
     label: "Formateurs",
     title: "Des formateurs experts et praticiens",
     description:
-      "Nos parcours sont portes par des intervenants capables de relier theorie, cas concrets et contraintes d'execution en entreprise.",
+      "Nos parcours sont portés par des intervenants capables de relier théorie, cas concrets et contraintes d'exécution en entreprise.",
     bullets: [
-      "Double expertise metier et pedagogique",
+      "Double expertise métier et pédagogique",
       "Animation inter, intra et dispositifs sur-mesure",
-      "Approche orientee applicabilite immediate"
+      "Approche orientée applicabilité immédiate"
     ]
   },
   {
     label: "Certifications",
-    title: "Des parcours structures avec niveaux, prerequis et validation",
+    title: "Des parcours structurés avec niveaux, prérequis et validation",
     description:
-      "Le catalogue est pense pour aider chaque profil a choisir le bon niveau, la bonne modalite et un dispositif coherant pour monter en competence.",
+      "Le catalogue est pensé pour aider chaque profil à choisir le bon niveau, la bonne modalité et un dispositif cohérent pour monter en compétence.",
     bullets: [
-      "Fiches formation detaillees et lisibles",
+      "Fiches formation détaillées et lisibles",
       "Positionnement par niveau et objectifs",
-      "Possibilite d'evaluation et de certification"
+      "Possibilité d'évaluation et de certification"
     ]
   },
   {
     label: "Entreprise",
     title: "Une logique de portail client et de parcours entreprise",
     description:
-      "Au-dela du catalogue, Beyond Expertise permet de cadrer les demandes, suivre les devis, organiser les inscriptions et separer les usages client du LMS.",
+      "Au-delà du catalogue, Beyond Expertise permet de cadrer les demandes, suivre les devis, organiser les inscriptions et séparer les usages client du LMS.",
     bullets: [
       "Tunnel commercial clair et rapide",
       "Suivi des demandes et validations",
-      "Projection vers academie et portail B2B"
+      "Projection vers académie et portail B2B"
     ]
   }
+];
+
+const clientLogos = [
+  "BNP Paribas", "Orange", "Renault", "Alten", "IBM", "Société Générale", "Capgemini", "Thales"
 ];
 
 export default async function HomePage() {
@@ -70,15 +74,18 @@ export default async function HomePage() {
 
   return (
     <main className="home-page-main">
+      {/* ── Hero ─────────────────────────────────────────── */}
       <section className="section section-tight">
         <div className="page-shell">
           <div className="home-hero-plb">
             <div className="home-hero-plb-copy">
               <span className="eyebrow">Catalogue premium | parcours entreprise | LMS</span>
-              <h1 className="home-hero-plb-title">Trouvez la formation qui fera progresser vos equipes et vos priorites metier.</h1>
+              <h1 className="home-hero-plb-title">
+                Trouvez la formation qui fera progresser vos équipes et vos priorités métier.
+              </h1>
               <p className="home-hero-plb-copy-text">
                 Data, BI, IA, gestion de projet, agile, business analysis et parcours entreprise :
-                un catalogue structure pour aller vite du besoin a la bonne formation.
+                un catalogue structuré pour aller vite du besoin à la bonne formation.
               </p>
 
               <form action="/formations" className="home-hero-plb-search">
@@ -95,7 +102,7 @@ export default async function HomePage() {
               <div className="home-hero-plb-proof">
                 {[
                   "Formations inter, intra et parcours entreprise",
-                  "Catalogue structure par expertises metier",
+                  "Catalogue structuré par expertises métier",
                   "Espace client distinct des espaces LMS"
                 ].map((item) => (
                   <div key={item} className="hero-proof-item hero-proof-item-light">
@@ -109,7 +116,7 @@ export default async function HomePage() {
                 <Link href="/formations" className="button button-primary">
                   Explorer le catalogue <ArrowRight size={18} />
                 </Link>
-                <Link href="/devis" className="button button-secondary button-secondary-inverted">
+                <Link href="/devis" className="button button-secondary-inverted">
                   Demander un devis
                 </Link>
               </div>
@@ -125,13 +132,13 @@ export default async function HomePage() {
               </div>
 
               <div className="home-hero-plb-kpi">
-                <div className="home-hero-plb-kpi-card card">
+                <div className="home-hero-plb-kpi-card">
                   <strong>{trainings.length}</strong>
                   <span>formations actives dans le catalogue</span>
                 </div>
-                <div className="home-hero-plb-kpi-card card">
+                <div className="home-hero-plb-kpi-card">
                   <strong>{upcomingCount}</strong>
-                  <span>formations avec prochaines sessions visibles</span>
+                  <span>formations avec sessions planifiées</span>
                 </div>
               </div>
 
@@ -143,19 +150,73 @@ export default async function HomePage() {
         </div>
       </section>
 
+      {/* ── Trust Strip ──────────────────────────────────── */}
+      <section className="section-tight" style={{ paddingTop: 0 }}>
+        <div className="page-shell">
+          <div className="home-trust-strip">
+            <div className="home-trust-item">
+              <div className="home-trust-icon home-trust-icon-accent">
+                <Star size={20} fill="currentColor" />
+              </div>
+              <div className="home-trust-label">
+                <span className="home-trust-value">4,8 / 5</span>
+                <span className="home-trust-desc">Satisfaction apprenants</span>
+              </div>
+            </div>
+            <div className="home-trust-item">
+              <div className="home-trust-icon">
+                <ShieldCheck size={20} />
+              </div>
+              <div className="home-trust-label">
+                <span className="home-trust-value">Qualiopi</span>
+                <span className="home-trust-desc">Certification qualité</span>
+              </div>
+            </div>
+            <div className="home-trust-item">
+              <div className="home-trust-icon">
+                <Award size={20} />
+              </div>
+              <div className="home-trust-label">
+                <span className="home-trust-value">CPF & OPCO</span>
+                <span className="home-trust-desc">Financement éligible</span>
+              </div>
+            </div>
+            <div className="home-trust-item">
+              <div className="home-trust-icon">
+                <ThumbsUp size={20} />
+              </div>
+              <div className="home-trust-label">
+                <span className="home-trust-value">94 %</span>
+                <span className="home-trust-desc">Taux de réussite</span>
+              </div>
+            </div>
+            <div className="home-trust-item">
+              <div className="home-trust-icon home-trust-icon-accent">
+                <Zap size={20} />
+              </div>
+              <div className="home-trust-label">
+                <span className="home-trust-value">+8 000</span>
+                <span className="home-trust-desc">Apprenants formés / an</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── Featured Trainings ───────────────────────────── */}
       <section className="section section-tight-top">
         <div className="page-shell">
           <div className="section-heading-row">
             <div>
-              <span className="eyebrow">Formations les plus demandees</span>
-              <h2 className="section-title section-title-wide">Une selection immediate pour les sujets les plus porteurs du catalogue.</h2>
+              <span className="eyebrow">Formations les plus demandées</span>
+              <h2 className="section-title section-title-wide">Une sélection immédiate pour les sujets les plus porteurs du catalogue.</h2>
             </div>
             <div className="section-cta-inline">
               <p className="section-copy section-copy-narrow">
                 SQL, Power BI, PMO, Scrum, Copilot, AI Agents et data : les parcours les plus visibles pour les demandes inter et entreprise.
               </p>
               <Link href="/formations" className="button button-secondary">
-                Decouvrir tout le catalogue
+                Découvrir tout le catalogue
               </Link>
             </div>
           </div>
@@ -168,6 +229,7 @@ export default async function HomePage() {
         </div>
       </section>
 
+      {/* ── Stats Panel ──────────────────────────────────── */}
       <section className="section section-tight-top">
         <div className="page-shell">
           <div className="home-stats-panel">
@@ -175,33 +237,33 @@ export default async function HomePage() {
               <article className="home-stat-card">
                 <strong>{trainings.length}</strong>
                 <h3>formations au catalogue</h3>
-                <p>Un socle structure autour des usages data, IA, pilotage, agile et business analysis.</p>
+                <p>Un socle structuré autour des usages data, IA, pilotage, agile et business analysis.</p>
               </article>
               <article className="home-stat-card">
                 <strong>{premiumGroups.length}</strong>
-                <h3>univers metier prioritaires</h3>
-                <p>Des categories premium pour accelerer l'orientation des directions, PMO, analysts et equipes data.</p>
+                <h3>univers métier prioritaires</h3>
+                <p>Des catégories premium pour accélérer l'orientation des directions, PMO, analysts et équipes data.</p>
               </article>
               <article className="home-stat-card">
                 <strong>{formatCount}</strong>
-                <h3>modalites de suivi</h3>
-                <p>Presentiel, distanciel, hybride et e-learning selon le contexte de deploiement.</p>
+                <h3>modalités de suivi</h3>
+                <p>Présentiel, distanciel, hybride et e-learning selon le contexte de déploiement.</p>
               </article>
               <article className="home-stat-card">
                 <strong>{categoryCount}</strong>
                 <h3>domaines et sous-domaines</h3>
-                <p>Un catalogue pense pour couvrir la montee en competence de plusieurs fonctions et niveaux.</p>
+                <p>Un catalogue pensé pour couvrir la montée en compétence de plusieurs fonctions et niveaux.</p>
               </article>
             </div>
 
             <div className="home-stats-copy">
-              <span className="eyebrow eyebrow-dark">Chiffres cles</span>
-              <h2 className="section-title">Une base de catalogue serieuse pour cadrer vite un projet de formation.</h2>
+              <span className="eyebrow eyebrow-dark">Chiffres clés</span>
+              <h2 className="section-title">Une base de catalogue sérieuse pour cadrer vite un projet de formation.</h2>
               <p className="section-copy">
                 Beyond Expertise combine catalogue, tunnel commercial, espace client et projection LMS dans une architecture claire,
                 avec de vraies fiches formation, des parcours prioritaires et une logique de portail entreprise.
               </p>
-              <Link href="/a-propos" className="button button-secondary button-secondary-inverted">
+              <Link href="/a-propos" className="button button-secondary">
                 En savoir plus sur Beyond Expertise
               </Link>
             </div>
@@ -209,6 +271,26 @@ export default async function HomePage() {
         </div>
       </section>
 
+      {/* ── Client Logos ─────────────────────────────────── */}
+      <section className="section-tight" style={{ paddingTop: 0 }}>
+        <div className="page-shell">
+          <div className="home-logos-band">
+            <div className="home-logos-head">
+              <p className="home-logos-title">Ils nous font confiance</p>
+              <Link href="/a-propos" className="button button-secondary" style={{ fontSize: "0.82rem", padding: "8px 14px" }}>
+                Voir nos références
+              </Link>
+            </div>
+            <div className="home-logos-grid">
+              {clientLogos.map((logo) => (
+                <div key={logo} className="home-logo-item">{logo}</div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── Advantages ───────────────────────────────────── */}
       <section className="section section-tight-top">
         <div className="page-shell">
           <div className="home-advantages-panel">
@@ -217,7 +299,7 @@ export default async function HomePage() {
                 <span className="eyebrow eyebrow-dark">Nos atouts</span>
                 <h2 className="section-title">Les fondamentaux d'un organisme de formation premium, lisible et moderne.</h2>
                 <p className="section-copy">
-                  Le site n'expose pas seulement un catalogue : il structure une offre pedagogique, commerciale et LMS capable de monter en maturite.
+                  Le site n'expose pas seulement un catalogue : il structure une offre pédagogique, commerciale et LMS capable de monter en maturité.
                 </p>
               </div>
               <div className="home-advantage-tabs" aria-hidden="true">
@@ -247,15 +329,16 @@ export default async function HomePage() {
         </div>
       </section>
 
+      {/* ── Premium Categories ───────────────────────────── */}
       <section className="section section-tight-top">
         <div className="page-shell">
           <div className="section-heading-row">
             <div>
-              <span className="eyebrow">Univers metier</span>
-              <h2 className="section-title section-title-wide">Des categories premium pour orienter rapidement chaque equipe vers le bon parcours.</h2>
+              <span className="eyebrow">Univers métier</span>
+              <h2 className="section-title section-title-wide">Des catégories premium pour orienter rapidement chaque équipe vers le bon parcours.</h2>
             </div>
             <p className="section-copy section-copy-narrow">
-              Chaque univers regroupe les formations les plus utiles pour un metier, un niveau et un objectif de transformation.
+              Chaque univers regroupe les formations les plus utiles pour un métier, un niveau et un objectif de transformation.
             </p>
           </div>
 
@@ -266,20 +349,23 @@ export default async function HomePage() {
                 <h3 style={{ marginBottom: 10 }}>{group.title}</h3>
                 <p className="section-copy" style={{ margin: 0 }}>{group.description}</p>
                 <p className="premium-category-audience">{group.audience}</p>
-                <p className="premium-category-count">{group.trainings.length} formations associees</p>
+                <p className="premium-category-count">{group.trainings.length} formations associées</p>
               </article>
             ))}
           </div>
         </div>
       </section>
 
+      {/* ── CTA Band ─────────────────────────────────────── */}
       <section className="section section-tight-top">
         <div className="page-shell">
           <div className="home-interest-band">
             <div className="home-interest-copy">
-              <span className="eyebrow eyebrow-dark">Projet entreprise</span>
-              <h2 className="section-title">Un meme socle pour le catalogue, le devis, l'inscription, l'espace client et les espaces LMS.</h2>
-              <p className="section-copy">
+              <span className="eyebrow" style={{ background: "rgba(255,255,255,0.1)", color: "white" }}>Projet entreprise</span>
+              <h2 className="section-title" style={{ color: "white", maxWidth: "20ch" }}>
+                Un même socle pour le catalogue, le devis, l'inscription, l'espace client et les espaces LMS.
+              </h2>
+              <p className="section-copy" style={{ color: "rgba(255,255,255,0.82)" }}>
                 Beyond Expertise peut servir de base pour un site organisme de formation moderne, un portail client de suivi
                 et une future plateforme e-learning plus riche, sans casser le parcours commercial.
               </p>
@@ -287,8 +373,8 @@ export default async function HomePage() {
                 <Link href="/devis" className="button button-primary">
                   Construire un parcours entreprise
                 </Link>
-                <Link href="/contact" className="button button-secondary button-secondary-inverted">
-                  Contacter notre equipe
+                <Link href="/contact" className="button button-secondary-inverted">
+                  Contacter notre équipe
                 </Link>
               </div>
             </div>
@@ -306,16 +392,17 @@ export default async function HomePage() {
         </div>
       </section>
 
+      {/* ── Resources ────────────────────────────────────── */}
       <section className="section section-tight-top">
         <div className="page-shell">
           <div className="section-heading-row">
             <div>
               <span className="eyebrow">Ressources</span>
-              <h2 className="section-title">Des contenus utiles pour nourrir la decision, le SEO et les echanges commerciaux.</h2>
+              <h2 className="section-title">Des contenus utiles pour nourrir la décision, le SEO et les échanges commerciaux.</h2>
             </div>
             <div className="section-cta-inline">
               <p className="section-copy section-copy-narrow">
-                Articles, pages expertes et actualites permettent d'appuyer la credibilite du site et de capter des intentions de recherche plus larges.
+                Articles, pages expertes et actualités permettent d'appuyer la crédibilité du site et de capter des intentions de recherche plus larges.
               </p>
               <Link href="/ressources" className="button button-secondary">
                 Voir toutes les ressources
@@ -327,11 +414,11 @@ export default async function HomePage() {
             <article className="home-resource-feature">
               <div className="home-resource-feature-media" />
               <div className="home-resource-feature-body">
-                <span className="premium-category-accent">A la une</span>
+                <span className="premium-category-accent">À la une</span>
                 <h3>Comment structurer une offre formation premium autour de la data, de l'IA et du pilotage ?</h3>
                 <p>
-                  Une ligne editoriale orientee usage, ROI, gouvernance et transformation permet d'installer Beyond Expertise comme acteur credible
-                  sur les sujets les plus demandés du marche.
+                  Une ligne éditoriale orientée usage, ROI, gouvernance et transformation permet d'installer Beyond Expertise comme acteur crédible
+                  sur les sujets les plus demandés du marché.
                 </p>
               </div>
             </article>
@@ -354,14 +441,15 @@ export default async function HomePage() {
         </div>
       </section>
 
+      {/* ── FAQ ──────────────────────────────────────────── */}
       <section className="section section-tight-top">
         <div className="page-shell">
           <div className="home-faq-band">
             <div className="home-faq-copy">
-              <span className="eyebrow">Questions frequentes</span>
+              <span className="eyebrow eyebrow-dark">Questions fréquentes</span>
               <h2 className="section-title">Tout ce qu'il faut clarifier avant d'activer une demande, un devis ou un parcours entreprise.</h2>
               <p className="section-copy">
-                Une FAQ bien structuree rassure, reduit les frictions et soutient a la fois la conversion et la qualite percue du site.
+                Une FAQ bien structurée rassure, réduit les frictions et soutient à la fois la conversion et la qualité perçue du site.
               </p>
               <Link href="/contact" className="button button-primary">
                 Contactez-nous

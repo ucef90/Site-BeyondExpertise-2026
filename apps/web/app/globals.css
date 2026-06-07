@@ -4156,3 +4156,8 @@ html[data-motion="on"] .reveal.is-visible {
   pointer-events: none;
   background: rgba(0, 0, 0, 0.3);
 }
+
+/* ═══ FAQ : titre élargi (occupe sa colonne) ════════════════════ */
+.home-faq-title {
+  max-width: none;
+}

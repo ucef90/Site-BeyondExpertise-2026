@@ -567,9 +567,10 @@ export default async function HomePage() {
           <div className="home-faq-band">
             <div className="home-faq-copy">
               <span className="eyebrow eyebrow-dark">Questions fréquentes</span>
-              <h2 className="section-title">Tout ce qu'il faut clarifier avant d'activer une demande, un devis ou un parcours entreprise.</h2>
+              <h2 className="section-title home-faq-title">Tout ce qu&apos;il faut clarifier avant d&apos;activer une demande, un devis ou un parcours entreprise.</h2>
               <p className="section-copy">
-                Une FAQ bien structurée rassure, réduit les frictions et soutient à la fois la conversion et la qualité perçue du site.
+                Vous ne trouvez pas votre réponse ? Notre équipe vous accompagne sur le choix de la formation,
+                le financement et le montage d&apos;un parcours entreprise.
               </p>
               <Link href="/contact" className="button button-primary">
                 Contactez-nous

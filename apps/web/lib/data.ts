@@ -57,14 +57,26 @@ export const featuredTrainings: Training[] = [
 export const faqItems = [
   {
     question: "Comment réserver une formation ?",
-    answer: "Depuis la fiche formation, l’utilisateur peut demander un devis, une inscription ou un échange avec l’équipe commerciale."
+    answer: "Depuis chaque fiche formation, vous pouvez demander un devis, lancer une inscription ou échanger avec un conseiller. Nous revenons vers vous sous 24 à 48 h ouvrées pour cadrer votre besoin."
   },
   {
-    question: "Le LMS est-il intégré ?",
-    answer: "Le socle prévoit un mini LMS natif avec progression, modules, leçons, quiz et certificats, extensible vers une intégration externe."
+    question: "Quelles modalités proposez-vous (inter, intra, distanciel) ?",
+    answer: "Nos formations existent en inter-entreprises, en intra sur-mesure dans vos locaux, en distanciel (classe virtuelle) ou en format hybride, selon votre contexte et vos contraintes."
   },
   {
-    question: "Peut-on gérer des entreprises clientes ?",
-    answer: "Oui. Le modèle de données prévoit les entreprises, leurs utilisateurs, les inscriptions multi-participants et l’évolution vers un portail B2B."
+    question: "Vos formations sont-elles finançables (OPCO, CPF) ?",
+    answer: "Oui. Beyond Expertise est un organisme certifié Qualiopi : nos parcours sont éligibles aux dispositifs de financement (OPCO, plan de développement des compétences, CPF selon les formations). Notre équipe vous aide à monter le dossier."
+  },
+  {
+    question: "Proposez-vous des parcours entreprise sur-mesure ?",
+    answer: "Oui. Nous construisons des dispositifs dédiés : cadrage des besoins, sélection des modules, sessions réservées à vos équipes et suivi des inscriptions multi-participants depuis l'espace client."
+  },
+  {
+    question: "Y a-t-il une certification ou une évaluation des acquis ?",
+    answer: "La plupart des parcours intègrent une évaluation des acquis, et certaines formations préparent à une certification. La certification Qualiopi garantit la qualité de notre processus de formation."
+  },
+  {
+    question: "Le LMS et l'espace apprenant sont-ils intégrés ?",
+    answer: "Oui. Un espace apprenant est prévu (progression, modules, quiz, certificats), distinct de l'espace client utilisé pour vos demandes, devis et documents."
   }
 ];

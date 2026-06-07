@@ -211,7 +211,7 @@ export function CatalogExplorer({
 
       <section style={{ marginTop: 48 }}>
         {filteredGroups.map((group) => (
-          <div key={group.key} className="premium-group-block">
+          <div key={group.key} id={group.key} className="premium-group-block" style={{ scrollMarginTop: 120 }}>
             <div className="premium-group-header">
               <div>
                 <span className="premium-category-accent">{group.accent}</span>

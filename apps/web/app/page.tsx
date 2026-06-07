@@ -422,7 +422,12 @@ export default async function HomePage() {
             {premiumGroups.map((group) => {
               const Icon = categoryIcons[group.key] ?? Sparkles;
               return (
-                <article key={group.key} className="card premium-category-card" style={{ gridColumn: "span 3", padding: 24 }}>
+                <Link
+                  key={group.key}
+                  href={{ pathname: "/formations", hash: group.key }}
+                  className="card premium-category-card"
+                  style={{ gridColumn: "span 3", padding: 24 }}
+                >
                   <div className="bx-cat-ico">
                     <Icon size={22} strokeWidth={1.75} />
                   </div>
@@ -434,7 +439,7 @@ export default async function HomePage() {
                     {group.trainings.length} formations associées
                     <ArrowRight size={15} strokeWidth={2} />
                   </p>
-                </article>
+                </Link>
               );
             })}
           </div>

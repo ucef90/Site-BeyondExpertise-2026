@@ -505,7 +505,7 @@ export default async function HomePage() {
           <div className="section-heading-row">
             <div>
               <span className="eyebrow">Ressources &amp; analyses</span>
-              <h2 className="section-title">Des analyses concrètes pour cadrer vos décisions data, IA et pilotage.</h2>
+              <h2 className="section-title home-resources-title">Des analyses concrètes pour cadrer vos décisions data, IA et pilotage.</h2>
             </div>
             <div className="section-cta-inline">
               <p className="section-copy section-copy-narrow">

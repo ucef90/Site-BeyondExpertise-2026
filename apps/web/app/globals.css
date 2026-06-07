@@ -4162,6 +4162,11 @@ html[data-motion="on"] .reveal.is-visible {
   max-width: none;
 }
 
+/* ═══ Ressources : titre élargi (plus de vide à sa droite) ══════ */
+.home-resources-title {
+  max-width: 26ch;
+}
+
 /* ═══ Projet entreprise : fond fluide animé (ambiance hero) ═════ */
 @keyframes be-fluid {
   0% {

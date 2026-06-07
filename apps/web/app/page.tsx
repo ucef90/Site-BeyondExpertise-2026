@@ -22,6 +22,7 @@ import { FAQ } from "@/components/faq";
 import { TrainingCard } from "@/components/training-card";
 import { ClientLogo } from "@/components/client-logo";
 import { AnimatedBackground } from "@/components/animated-background";
+import { SplineBackground } from "@/components/spline-background";
 import { faqItems } from "@/lib/data";
 import { getHomepageFeaturedTrainings, getTrainings, groupTrainingsByPremiumCategory } from "@/lib/api";
 
@@ -518,61 +519,10 @@ export default async function HomePage() {
 
           <div className="home-resources-grid">
             <Link href="/ressources" className="home-resource-feature">
-              <div className="home-resource-feature-media">
+              <div className="home-resource-feature-media home-resource-feature-media-3d">
+                <SplineBackground scene="https://prod.spline.design/Slk6b8kz3LRlKiyk/scene.splinecode" />
+                <div className="home-resource-feature-overlay" aria-hidden="true" />
                 <span className="home-resource-feature-tag">Dossier · Stratégie formation</span>
-                <svg
-                  className="home-resource-cover-art"
-                  viewBox="0 0 480 220"
-                  preserveAspectRatio="xMidYMid slice"
-                  aria-hidden="true"
-                >
-                  <defs>
-                    <linearGradient id="bxBar" x1="0" y1="1" x2="0" y2="0">
-                      <stop offset="0" stopColor="#f7991c" stopOpacity="0.2" />
-                      <stop offset="1" stopColor="#f7991c" stopOpacity="0.95" />
-                    </linearGradient>
-                    <linearGradient id="bxArea" x1="0" y1="0" x2="0" y2="1">
-                      <stop offset="0" stopColor="#2dd4ff" stopOpacity="0.45" />
-                      <stop offset="1" stopColor="#2dd4ff" stopOpacity="0" />
-                    </linearGradient>
-                  </defs>
-                  <g stroke="rgba(255,255,255,0.06)" strokeWidth="1">
-                    <line x1="0" y1="55" x2="480" y2="55" />
-                    <line x1="0" y1="110" x2="480" y2="110" />
-                    <line x1="0" y1="165" x2="480" y2="165" />
-                  </g>
-                  <g>
-                    <rect x="36" y="120" width="26" height="60" rx="6" fill="rgba(255,255,255,0.14)" />
-                    <rect x="74" y="92" width="26" height="88" rx="6" fill="rgba(255,255,255,0.16)" />
-                    <rect x="112" y="132" width="26" height="48" rx="6" fill="rgba(255,255,255,0.12)" />
-                    <rect x="150" y="70" width="26" height="110" rx="6" fill="url(#bxBar)" />
-                    <rect x="188" y="104" width="26" height="76" rx="6" fill="rgba(255,255,255,0.16)" />
-                    <rect x="226" y="58" width="26" height="122" rx="6" fill="rgba(255,255,255,0.16)" />
-                    <rect x="264" y="96" width="26" height="84" rx="6" fill="rgba(255,255,255,0.13)" />
-                  </g>
-                  <path
-                    d="M40 96 C 90 70, 130 88, 170 60 S 250 40, 300 52 L300 180 L40 180 Z"
-                    fill="url(#bxArea)"
-                    opacity="0.5"
-                  />
-                  <path
-                    d="M40 96 C 90 70, 130 88, 170 60 S 250 40, 300 52"
-                    stroke="#2dd4ff"
-                    strokeWidth="2.5"
-                    fill="none"
-                    strokeLinecap="round"
-                  />
-                  <g fill="#ffffff">
-                    <circle cx="170" cy="60" r="3.5" />
-                    <circle cx="300" cy="52" r="3.5" />
-                  </g>
-                  <g>
-                    <rect x="330" y="40" width="118" height="64" rx="14" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.2)" />
-                    <rect x="344" y="56" width="40" height="8" rx="4" fill="rgba(255,255,255,0.5)" />
-                    <rect x="344" y="72" width="74" height="10" rx="5" fill="#f7991c" />
-                    <circle cx="430" cy="62" r="9" fill="none" stroke="#2dd4ff" strokeWidth="3" strokeDasharray="40 16" />
-                  </g>
-                </svg>
               </div>
               <div className="home-resource-feature-body">
                 <span className="premium-category-accent">À la une</span>

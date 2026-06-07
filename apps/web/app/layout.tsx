@@ -19,7 +19,12 @@ const fontDisplay = Space_Grotesk({
 
 export const metadata: Metadata = {
   title: "Beyond Expertise — Formations data, IA, gestion de projet & agile",
-  description: "Organisme de formation premium : catalogue data, BI, IA, gestion de projet, agile et business analysis. Inter, intra et parcours entreprise."
+  description: "Organisme de formation premium : catalogue data, BI, IA, gestion de projet, agile et business analysis. Inter, intra et parcours entreprise.",
+  icons: {
+    icon: "/logo-beyond.png",
+    shortcut: "/logo-beyond.png",
+    apple: "/logo-beyond.png"
+  }
 };
 
 // Render every page on demand at request time, never at build time.

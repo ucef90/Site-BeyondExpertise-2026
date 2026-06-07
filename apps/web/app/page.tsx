@@ -21,6 +21,7 @@ import {
 import { FAQ } from "@/components/faq";
 import { TrainingCard } from "@/components/training-card";
 import { ClientLogo } from "@/components/client-logo";
+import { AnimatedBackground } from "@/components/animated-background";
 import { faqItems } from "@/lib/data";
 import { getHomepageFeaturedTrainings, getTrainings, groupTrainingsByPremiumCategory } from "@/lib/api";
 
@@ -117,10 +118,8 @@ export default async function HomePage() {
   return (
     <main className="home-page-main">
       {/* ── Hero ─────────────────────────────────────────── */}
-      <section className="section section-tight">
-        <div className="page-shell">
-          <div className="bx-hero">
-            <div className="bx-hero-aurora" aria-hidden="true" />
+      <AnimatedBackground>
+        <div className="bx-vhero page-shell">
             <div className="bx-hero-copy">
               <span className="bx-eyebrow">
                 <ShieldCheck size={14} strokeWidth={2} /> Organisme de formation · Certifié Qualiopi
@@ -220,9 +219,8 @@ export default async function HomePage() {
                 <span className="bx-btn-ico"><ArrowRight size={16} strokeWidth={2} /></span>
               </Link>
             </aside>
-          </div>
         </div>
-      </section>
+      </AnimatedBackground>
 
       {/* ── Trust Strip ──────────────────────────────────── */}
       <section className="section-tight" style={{ paddingTop: 0, paddingBottom: 10 }}>

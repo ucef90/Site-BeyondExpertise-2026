@@ -1,0 +1,76 @@
+# Production stack for "Site Beyond Expertise 2026".
+# Fully isolated from any other app on the VPS: own DB, own volume, own
+# default network. Only "beyond-site" joins the shared external "web" network
+# so the central Caddy reverse proxy can reach it. No 80/443, no proxy here.
+name: beyond-expertise
+
+services:
+  # ── Public site (Next.js) — the ONLY service on the shared "web" network ──
+  beyond-site:
+    build:
+      context: .
+      dockerfile: Dockerfile.web
+      args:
+        NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL:-/api/v1}
+        NEXT_PUBLIC_APP_URL: ${NEXT_PUBLIC_APP_URL}
+        NEXT_PUBLIC_TURNSTILE_SITE_KEY: ${NEXT_PUBLIC_TURNSTILE_SITE_KEY:-}
+        NEXT_PUBLIC_LMS_LEARNER_URL: ${NEXT_PUBLIC_LMS_LEARNER_URL:-}
+        NEXT_PUBLIC_LMS_TRAINER_URL: ${NEXT_PUBLIC_LMS_TRAINER_URL:-}
+        API_PROXY_TARGET: ${API_PROXY_TARGET:-http://beyond-api:4000}
+    image: beyond-site:latest
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      NODE_ENV: production
+      PORT: "3000"
+      HOSTNAME: 0.0.0.0
+      # Server-side rendering reaches the API directly over the private network.
+      API_INTERNAL_URL: http://beyond-api:4000/api/v1
+    depends_on:
+      - beyond-api
+    networks:
+      - default
+      - web
+
+  # ── Internal API (NestJS) — private network only ──
+  beyond-api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    image: beyond-api:latest
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      NODE_ENV: production
+      PORT: "4000"
+    depends_on:
+      beyond-db:
+        condition: service_healthy
+    networks:
+      - default
+
+  # ── PostgreSQL — private network only, named volume, no host port ──
+  beyond-db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - beyond_db_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+    networks:
+      - default
+
+volumes:
+  beyond_db_data:
+
+networks:
+  web:
+    external: true
+  default: {}

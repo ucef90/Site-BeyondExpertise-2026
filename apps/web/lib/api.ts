@@ -1,6 +1,11 @@
 import { featuredTrainings } from "@/lib/data";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:4000/api/v1";
+// These helpers run on the server (App Router server components). In production
+// they reach the API container directly over the private Docker network via
+// API_INTERNAL_URL, avoiding a public round-trip. Locally / client-side this
+// falls back to NEXT_PUBLIC_API_URL.
+const API_URL =
+  process.env.API_INTERNAL_URL || process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:4000/api/v1";
 
 const PRIORITY_TRAINING_TITLES = [
   "Data Analyst : Excel, Power Query et Power BI",

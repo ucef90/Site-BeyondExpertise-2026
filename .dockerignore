@@ -1,0 +1,26 @@
+# Keep the build context small and avoid leaking local state
+node_modules
+**/node_modules
+.git
+.gitignore
+.next
+**/.next
+.turbo
+**/.turbo
+dist
+**/dist
+build
+**/build
+coverage
+.playwright-mcp
+data/imports
+prisma/dev.db
+*.log
+*.output
+*.tsbuildinfo
+**/*.tsbuildinfo
+
+# Never ship local secrets; keep only the example
+.env
+.env.*
+!.env.prod.example

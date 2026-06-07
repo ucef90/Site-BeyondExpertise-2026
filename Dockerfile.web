@@ -1,0 +1,46 @@
+# syntax=docker/dockerfile:1
+# Production image for the public site (Next.js 15, App Router) — service "beyond-site".
+# Multi-stage + Next.js standalone output for a small runtime image.
+
+# ---- Base ----------------------------------------------------------------
+FROM node:20-alpine AS base
+RUN apk add --no-cache libc6-compat && corepack enable
+WORKDIR /app
+
+# ---- Build ---------------------------------------------------------------
+FROM base AS build
+ENV NEXT_TELEMETRY_DISABLED=1
+# NEXT_PUBLIC_* are inlined into the client bundle at build time.
+# NEXT_PUBLIC_API_URL is relative ("/api/v1") so the browser calls the same
+# domain; Next.js then proxies it to the internal API (API_PROXY_TARGET).
+ARG NEXT_PUBLIC_API_URL=/api/v1
+ARG NEXT_PUBLIC_APP_URL=https://beyond-expertise.com
+ARG NEXT_PUBLIC_TURNSTILE_SITE_KEY=
+ARG NEXT_PUBLIC_LMS_LEARNER_URL=
+ARG NEXT_PUBLIC_LMS_TRAINER_URL=
+ARG API_PROXY_TARGET=http://beyond-api:4000
+ENV NEXT_PUBLIC_API_URL=$NEXT_PUBLIC_API_URL \
+    NEXT_PUBLIC_APP_URL=$NEXT_PUBLIC_APP_URL \
+    NEXT_PUBLIC_TURNSTILE_SITE_KEY=$NEXT_PUBLIC_TURNSTILE_SITE_KEY \
+    NEXT_PUBLIC_LMS_LEARNER_URL=$NEXT_PUBLIC_LMS_LEARNER_URL \
+    NEXT_PUBLIC_LMS_TRAINER_URL=$NEXT_PUBLIC_LMS_TRAINER_URL \
+    API_PROXY_TARGET=$API_PROXY_TARGET
+COPY . .
+RUN pnpm install
+RUN pnpm exec turbo run build --filter=@beyond/web
+
+# ---- Runtime -------------------------------------------------------------
+FROM base AS runtime
+ENV NODE_ENV=production \
+    NEXT_TELEMETRY_DISABLED=1 \
+    PORT=3000 \
+    HOSTNAME=0.0.0.0
+WORKDIR /app
+RUN addgroup -S nodejs && adduser -S nextjs -G nodejs
+# Standalone server + static assets + public files (monorepo layout preserved).
+COPY --from=build /app/apps/web/.next/standalone ./
+COPY --from=build /app/apps/web/.next/static ./apps/web/.next/static
+COPY --from=build /app/apps/web/public ./apps/web/public
+USER nextjs
+EXPOSE 3000
+CMD ["node", "apps/web/server.js"]

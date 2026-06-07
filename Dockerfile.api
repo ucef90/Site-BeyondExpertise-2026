@@ -1,0 +1,27 @@
+# syntax=docker/dockerfile:1
+# Production image for the internal API (NestJS) — service "beyond-api".
+# Stays on the project's private network only (never exposed to the proxy).
+# Keeps the full workspace so it can run Prisma migrations and the catalog
+# seeding/import scripts (tsx) at deploy time.
+
+# ---- Base ----------------------------------------------------------------
+FROM node:20-alpine AS base
+RUN apk add --no-cache openssl libc6-compat && corepack enable
+WORKDIR /app
+
+# ---- Build ---------------------------------------------------------------
+FROM base AS build
+COPY . .
+RUN pnpm install
+RUN pnpm exec prisma generate
+RUN pnpm exec turbo run build --filter=@beyond/api
+
+# ---- Runtime -------------------------------------------------------------
+FROM base AS runtime
+ENV NODE_ENV=production \
+    PORT=4000
+WORKDIR /app
+COPY --from=build /app ./
+EXPOSE 4000
+# Apply pending migrations, then start the API.
+CMD ["sh", "-c", "pnpm exec prisma migrate deploy && node apps/api/dist/main.js"]

@@ -1,9 +1,34 @@
 import Link from "next/link";
-import { ArrowRight, Award, CheckCircle2, Search, ShieldCheck, Star, ThumbsUp, Zap } from "lucide-react";
+import {
+  ArrowRight,
+  Award,
+  BarChart3,
+  Bot,
+  Clock,
+  Database,
+  GraduationCap,
+  Kanban,
+  type LucideIcon,
+  MapPinned,
+  Search,
+  ShieldCheck,
+  Sparkles,
+  Star,
+  ThumbsUp,
+  Zap
+} from "lucide-react";
 import { FAQ } from "@/components/faq";
 import { TrainingCard } from "@/components/training-card";
 import { faqItems } from "@/lib/data";
 import { getHomepageFeaturedTrainings, getTrainings, groupTrainingsByPremiumCategory } from "@/lib/api";
+
+const categoryIcons: Record<string, LucideIcon> = {
+  "data-bi": BarChart3,
+  "data-science-ml": Database,
+  "ai-genai": Bot,
+  "project-agile-pmo": Kanban,
+  "business-analysis-product": Sparkles
+};
 
 const resourceHighlights = [
   {
@@ -71,81 +96,115 @@ export default async function HomePage() {
   const formatCount = new Set(trainings.map((training) => training.format)).size;
   const categoryCount = new Set(trainings.map((training) => training.category)).size;
   const upcomingCount = trainings.filter((training) => training.nextSession !== "Planification à venir").length;
+  const heroFeatured = featuredTrainings[0];
+  const heroChips = ["Power BI", "Intelligence Artificielle", "Scrum", "SQL", "Copilot", "PMO"];
 
   return (
     <main className="home-page-main">
       {/* ── Hero ─────────────────────────────────────────── */}
       <section className="section section-tight">
         <div className="page-shell">
-          <div className="home-hero-plb">
-            <div className="home-hero-plb-copy">
-              <span className="eyebrow">Catalogue premium | parcours entreprise | LMS</span>
-              <h1 className="home-hero-plb-title">
-                Trouvez la formation qui fera progresser vos équipes et vos priorités métier.
+          <div className="bx-hero">
+            <div className="bx-hero-aurora" aria-hidden="true" />
+            <div className="bx-hero-copy">
+              <span className="bx-eyebrow">
+                <ShieldCheck size={14} strokeWidth={2} /> Organisme de formation · Certifié Qualiopi
+              </span>
+              <h1 className="bx-hero-title">
+                La formation qui fait <span>progresser</span> vos équipes et vos priorités métier.
               </h1>
-              <p className="home-hero-plb-copy-text">
-                Data, BI, IA, gestion de projet, agile, business analysis et parcours entreprise :
-                un catalogue structuré pour aller vite du besoin à la bonne formation.
+              <p className="bx-hero-sub">
+                Data, BI, IA, gestion de projet, agile et business analysis : un catalogue premium
+                structuré pour aller vite du besoin à la bonne formation — en inter, intra ou parcours entreprise.
               </p>
 
-              <form action="/formations" className="home-hero-plb-search">
+              <form action="/formations" className="bx-hero-search" role="search">
+                <Search size={20} strokeWidth={1.75} className="bx-hero-search-icon" />
                 <input
                   name="q"
-                  className="input home-hero-plb-search-input"
-                  placeholder="IA, data, Power BI, agile, scrum, PMO..."
+                  className="bx-hero-search-input"
+                  placeholder="Rechercher : Power BI, IA, Scrum, SQL, PMO…"
+                  aria-label="Rechercher une formation"
                 />
-                <button type="submit" className="home-hero-plb-search-button" aria-label="Rechercher">
-                  <Search size={18} />
+                <button type="submit" className="bx-btn bx-btn-primary bx-hero-search-submit">
+                  <span>Rechercher</span>
+                  <span className="bx-btn-ico"><ArrowRight size={16} strokeWidth={2} /></span>
                 </button>
               </form>
 
-              <div className="home-hero-plb-proof">
-                {[
-                  "Formations inter, intra et parcours entreprise",
-                  "Catalogue structuré par expertises métier",
-                  "Espace client distinct des espaces LMS"
-                ].map((item) => (
-                  <div key={item} className="hero-proof-item hero-proof-item-light">
-                    <CheckCircle2 size={18} />
-                    <span>{item}</span>
-                  </div>
+              <div className="bx-hero-chips">
+                {heroChips.map((chip) => (
+                  <Link key={chip} href={{ pathname: "/formations", query: { q: chip } }} className="bx-chip">
+                    {chip}
+                  </Link>
                 ))}
               </div>
 
-              <div className="home-hero-plb-actions">
-                <Link href="/formations" className="button button-primary">
-                  Explorer le catalogue <ArrowRight size={18} />
-                </Link>
-                <Link href="/devis" className="button button-secondary-inverted">
-                  Demander un devis
-                </Link>
+              <div className="bx-hero-trust">
+                <div className="bx-hero-trust-rating">
+                  <div className="bx-hero-stars" aria-hidden="true">
+                    {[0, 1, 2, 3, 4].map((index) => (
+                      <Star key={index} size={15} fill="currentColor" strokeWidth={0} />
+                    ))}
+                  </div>
+                  <strong>4,8/5</strong>
+                  <span>satisfaction</span>
+                </div>
+                <span className="bx-hero-trust-dot" aria-hidden="true" />
+                <div className="bx-hero-trust-item">
+                  <Award size={16} strokeWidth={1.75} /> CPF &amp; OPCO
+                </div>
+                <span className="bx-hero-trust-dot" aria-hidden="true" />
+                <div className="bx-hero-trust-item">
+                  <strong>+8 000</strong> apprenants/an
+                </div>
               </div>
             </div>
 
-            <div className="home-hero-plb-side">
-              <div className="home-hero-plb-photo card">
-                <div className="home-hero-plb-photo-grid">
-                  <div className="home-hero-plb-photo-cell home-hero-plb-photo-main" />
-                  <div className="home-hero-plb-photo-cell home-hero-plb-photo-top" />
-                  <div className="home-hero-plb-photo-cell home-hero-plb-photo-bottom" />
-                </div>
-              </div>
+            <aside className="bx-hero-panel">
+              {heroFeatured ? (
+                <article className="bx-hero-course">
+                  <div className="bx-hero-course-top">
+                    <span className="bx-tag">{heroFeatured.category}</span>
+                    <span className="bx-hero-course-rating">
+                      <Star size={13} fill="currentColor" strokeWidth={0} /> 4,9
+                    </span>
+                  </div>
+                  <h3 className="bx-hero-course-title">{heroFeatured.title}</h3>
+                  <div className="bx-hero-course-meta">
+                    <span><Clock size={14} strokeWidth={1.75} /> {heroFeatured.duration}</span>
+                    <span><GraduationCap size={14} strokeWidth={1.75} /> {heroFeatured.level}</span>
+                    <span><MapPinned size={14} strokeWidth={1.75} /> {heroFeatured.format}</span>
+                  </div>
+                  <div className="bx-hero-course-foot">
+                    <div className="bx-hero-course-price">
+                      <span>À partir de</span>
+                      <strong>{heroFeatured.priceFrom}</strong>
+                    </div>
+                    <Link href={`/formations/${heroFeatured.slug}`} className="bx-btn bx-btn-light">
+                      <span>Voir</span>
+                      <span className="bx-btn-ico"><ArrowRight size={16} strokeWidth={2} /></span>
+                    </Link>
+                  </div>
+                </article>
+              ) : null}
 
-              <div className="home-hero-plb-kpi">
-                <div className="home-hero-plb-kpi-card">
+              <div className="bx-hero-kpis">
+                <div className="bx-hero-kpi">
                   <strong>{trainings.length}</strong>
-                  <span>formations actives dans le catalogue</span>
+                  <span>formations actives</span>
                 </div>
-                <div className="home-hero-plb-kpi-card">
+                <div className="bx-hero-kpi">
                   <strong>{upcomingCount}</strong>
-                  <span>formations avec sessions planifiées</span>
+                  <span>sessions planifiées</span>
                 </div>
               </div>
 
-              <Link href="/formations" className="home-hero-plb-floating-cta">
-                Voir toutes nos formations <ArrowRight size={18} />
+              <Link href="/formations" className="bx-hero-panel-cta">
+                <span>Explorer tout le catalogue</span>
+                <span className="bx-btn-ico"><ArrowRight size={16} strokeWidth={2} /></span>
               </Link>
-            </div>
+            </aside>
           </div>
         </div>
       </section>
@@ -347,15 +406,24 @@ export default async function HomePage() {
           </div>
 
           <div className="feature-grid feature-grid-tight" style={{ marginTop: 24 }}>
-            {premiumGroups.map((group) => (
-              <article key={group.key} className="card premium-category-card" style={{ gridColumn: "span 3", padding: 22 }}>
-                <span className="premium-category-accent">{group.accent}</span>
-                <h3 style={{ marginBottom: 10 }}>{group.title}</h3>
-                <p className="section-copy" style={{ margin: 0 }}>{group.description}</p>
-                <p className="premium-category-audience">{group.audience}</p>
-                <p className="premium-category-count">{group.trainings.length} formations associées</p>
-              </article>
-            ))}
+            {premiumGroups.map((group) => {
+              const Icon = categoryIcons[group.key] ?? Sparkles;
+              return (
+                <article key={group.key} className="card premium-category-card" style={{ gridColumn: "span 3", padding: 24 }}>
+                  <div className="bx-cat-ico">
+                    <Icon size={22} strokeWidth={1.75} />
+                  </div>
+                  <span className="premium-category-accent">{group.accent}</span>
+                  <h3 style={{ marginBottom: 10 }}>{group.title}</h3>
+                  <p className="section-copy" style={{ margin: 0 }}>{group.description}</p>
+                  <p className="premium-category-audience">{group.audience}</p>
+                  <p className="premium-category-count">
+                    {group.trainings.length} formations associées
+                    <ArrowRight size={15} strokeWidth={2} />
+                  </p>
+                </article>
+              );
+            })}
           </div>
         </div>
       </section>

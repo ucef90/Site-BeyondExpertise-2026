@@ -55,8 +55,10 @@ export function Footer() {
           </div>
         </div>
         <div className="footer-bottom">
-          <span>© 2026 Beyond Expertise — Organisme de formation certifié Qualiopi</span>
-          <span>Catalogue premium | Tunnel commercial | LMS | EdTech-ready</span>
+          <span>© 2026 BEYOND EXPERTISE — SAS · SIREN 932 551 674 · 23 rue Marcel Houdet, 77000 Melun, France</span>
+          <span>
+            <a href="mailto:contact@beyondexpertise.eu">contact@beyondexpertise.eu</a> · Organisme de formation certifié Qualiopi
+          </span>
         </div>
       </div>
     </footer>

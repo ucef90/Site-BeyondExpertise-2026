@@ -58,17 +58,17 @@ export default function ContactPage() {
             {
               icon: <Mail size={18} />,
               label: "Email",
-              value: "hello@beyond-expertise.com"
+              value: "contact@beyondexpertise.eu"
             },
             {
               icon: <PhoneCall size={18} />,
               label: "Téléphone",
-              value: "+212 6 00 00 00 00"
+              value: "+33 1 86 76 24 24"
             },
             {
               icon: <MapPinned size={18} />,
               label: "Adresse",
-              value: "Casablanca, Maroc"
+              value: "23 rue Marcel Houdet, 77000 Melun, France"
             },
             {
               icon: <Clock3 size={18} />,

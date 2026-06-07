@@ -3964,3 +3964,79 @@ html[data-motion="on"] .reveal.is-visible {
     align-content: start;
   }
 }
+
+/* ═══ Ressources : feature + cartes cliquables, couvertures ═════ */
+.home-resource-feature,
+.home-resource-card {
+  display: block;
+  color: inherit;
+  transition: transform 0.32s var(--ease-out), box-shadow 0.32s var(--ease-out), border-color 0.32s var(--ease-out);
+}
+.home-resource-feature:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-hover);
+}
+.home-resource-card {
+  align-items: stretch;
+}
+.home-resource-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-hover);
+  border-color: rgba(247, 153, 28, 0.4);
+}
+
+/* Feature cover : designed (tag + icon) instead of an empty gradient */
+.home-resource-feature-media {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 18px 20px;
+}
+.home-resource-feature-media svg {
+  align-self: flex-end;
+  color: rgba(255, 255, 255, 0.92);
+}
+.home-resource-feature-tag {
+  align-self: flex-start;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  color: #fff;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  backdrop-filter: blur(6px);
+}
+
+/* List thumbnails : icon tile instead of empty block */
+.home-resource-thumb {
+  display: grid;
+  place-items: center;
+  color: var(--brand);
+  background: linear-gradient(150deg, rgba(247, 153, 28, 0.16), rgba(109, 94, 252, 0.14));
+  transition: color 0.25s var(--ease-out);
+}
+.home-resource-card:hover .home-resource-thumb {
+  color: var(--accent-strong);
+}
+
+.home-resource-tag {
+  display: inline-block;
+  margin-bottom: 6px;
+  color: var(--accent-strong);
+  font-size: 0.66rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.home-resource-link svg {
+  transition: transform 0.25s var(--ease-out);
+}
+.home-resource-feature:hover .home-resource-link svg,
+.home-resource-card:hover .home-resource-link svg {
+  transform: translateX(4px);
+}

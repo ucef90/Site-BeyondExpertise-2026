@@ -35,16 +35,22 @@ const categoryIcons: Record<string, LucideIcon> = {
 const resourceHighlights = [
   {
     slug: "copilot",
+    icon: Bot,
+    tag: "IA & productivité",
     title: "Copilot en entreprise : cadrer les cas d'usage qui apportent vite de la valeur",
     excerpt: "Une lecture orientée directions, PMO et fonctions support pour identifier les gains réalistes et les garde-fous utiles."
   },
   {
     slug: "ai-security",
+    icon: ShieldCheck,
+    tag: "Gouvernance & sécurité",
     title: "IA et gouvernance : comment accélérer sans ouvrir de nouveaux risques",
     excerpt: "Une synthèse pour aligner innovation, conformité, sécurité et usages métier dans un même cadre de décision."
   },
   {
     slug: "lakehouse",
+    icon: Database,
+    tag: "Architecture data",
     title: "Lakehouse, BI, IA : quels choix d'architecture pour une plateforme data moderne",
     excerpt: "Une ressource pour clarifier les arbitrages entre reporting, data engineering, IA et industrialisation des pipelines."
   }
@@ -499,45 +505,57 @@ export default async function HomePage() {
         <div className="page-shell">
           <div className="section-heading-row">
             <div>
-              <span className="eyebrow">Ressources</span>
-              <h2 className="section-title">Des contenus utiles pour nourrir la décision, le SEO et les échanges commerciaux.</h2>
+              <span className="eyebrow">Ressources &amp; analyses</span>
+              <h2 className="section-title">Des analyses concrètes pour cadrer vos décisions data, IA et pilotage.</h2>
             </div>
             <div className="section-cta-inline">
               <p className="section-copy section-copy-narrow">
-                Articles, pages expertes et actualités permettent d'appuyer la crédibilité du site et de capter des intentions de recherche plus larges.
+                Décryptages, retours d&apos;expérience et pages expertes pour aider vos équipes à faire les bons choix — du cas d&apos;usage à la mise en production.
               </p>
               <Link href="/ressources" className="button button-secondary">
-                Voir toutes les ressources
+                Voir toutes les ressources <ArrowRight size={16} strokeWidth={2} />
               </Link>
             </div>
           </div>
 
           <div className="home-resources-grid">
-            <article className="home-resource-feature">
-              <div className="home-resource-feature-media" />
+            <Link href="/ressources" className="home-resource-feature">
+              <div className="home-resource-feature-media">
+                <span className="home-resource-feature-tag">Dossier · Stratégie formation</span>
+                <Sparkles size={30} strokeWidth={1.5} />
+              </div>
               <div className="home-resource-feature-body">
                 <span className="premium-category-accent">À la une</span>
-                <h3>Comment structurer une offre formation premium autour de la data, de l'IA et du pilotage ?</h3>
+                <h3>Comment structurer une offre de formation premium autour de la data, de l&apos;IA et du pilotage ?</h3>
                 <p>
-                  Une ligne éditoriale orientée usage, ROI, gouvernance et transformation permet d'installer Beyond Expertise comme acteur crédible
-                  sur les sujets les plus demandés du marché.
+                  Usage, ROI, gouvernance et conduite du changement : les repères pour bâtir un dispositif de montée
+                  en compétence réellement actionnable en entreprise.
                 </p>
+                <span className="home-resource-link">
+                  Lire le dossier <ArrowRight size={16} strokeWidth={2} />
+                </span>
               </div>
-            </article>
+            </Link>
 
             <div className="home-resource-list">
-              {resourceHighlights.map((item) => (
-                <article key={item.slug} className="home-resource-card">
-                  <div className="home-resource-thumb" />
-                  <div>
-                    <h3>{item.title}</h3>
-                    <p>{item.excerpt}</p>
-                    <Link href={`/expertises/${item.slug}`} className="home-resource-link">
-                      Lire la page expertise <ArrowRight size={16} />
-                    </Link>
-                  </div>
-                </article>
-              ))}
+              {resourceHighlights.map((item) => {
+                const Icon = item.icon;
+                return (
+                  <Link key={item.slug} href={`/expertises/${item.slug}`} className="home-resource-card">
+                    <div className="home-resource-thumb">
+                      <Icon size={24} strokeWidth={1.75} />
+                    </div>
+                    <div>
+                      <span className="home-resource-tag">{item.tag}</span>
+                      <h3>{item.title}</h3>
+                      <p>{item.excerpt}</p>
+                      <span className="home-resource-link">
+                        Lire l&apos;analyse <ArrowRight size={16} strokeWidth={2} />
+                      </span>
+                    </div>
+                  </Link>
+                );
+              })}
             </div>
           </div>
         </div>

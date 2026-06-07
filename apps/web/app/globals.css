@@ -4161,3 +4161,43 @@ html[data-motion="on"] .reveal.is-visible {
 .home-faq-title {
   max-width: none;
 }
+
+/* ═══ Projet entreprise : fond fluide animé (ambiance hero) ═════ */
+@keyframes be-fluid {
+  0% {
+    transform: translate3d(-5%, -4%, 0) rotate(0deg) scale(1.15);
+  }
+  50% {
+    transform: translate3d(6%, 3%, 0) rotate(12deg) scale(1.32);
+  }
+  100% {
+    transform: translate3d(-3%, 5%, 0) rotate(-8deg) scale(1.22);
+  }
+}
+@keyframes be-fluid-alt {
+  0% {
+    transform: translate3d(4%, 5%, 0) rotate(0deg) scale(1.2);
+  }
+  50% {
+    transform: translate3d(-6%, -3%, 0) rotate(-14deg) scale(1.35);
+  }
+  100% {
+    transform: translate3d(2%, -5%, 0) rotate(9deg) scale(1.25);
+  }
+}
+.home-interest-band::after {
+  content: "";
+  position: absolute;
+  inset: -35%;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(38% 48% at 28% 42%, rgba(247, 153, 28, 0.32), transparent 60%),
+    radial-gradient(44% 54% at 74% 66%, rgba(45, 212, 255, 0.26), transparent 62%),
+    radial-gradient(48% 58% at 62% 20%, rgba(109, 94, 252, 0.32), transparent 60%);
+  filter: blur(54px);
+  animation: be-fluid 26s ease-in-out infinite alternate;
+}
+.home-interest-band::before {
+  animation: be-fluid-alt 32s ease-in-out infinite alternate;
+}

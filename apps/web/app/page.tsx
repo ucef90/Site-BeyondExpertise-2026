@@ -210,7 +210,7 @@ export default async function HomePage() {
       </section>
 
       {/* ── Trust Strip ──────────────────────────────────── */}
-      <section className="section-tight" style={{ paddingTop: 0 }}>
+      <section className="section-tight" style={{ paddingTop: 0, paddingBottom: 10 }}>
         <div className="page-shell">
           <div className="home-trust-strip">
             <div className="home-trust-item">
@@ -263,7 +263,7 @@ export default async function HomePage() {
       </section>
 
       {/* ── Featured Trainings ───────────────────────────── */}
-      <section className="section section-tight-top">
+      <section className="section section-tight-top" style={{ paddingTop: 10 }}>
         <div className="page-shell">
           <div className="section-heading-row">
             <div>

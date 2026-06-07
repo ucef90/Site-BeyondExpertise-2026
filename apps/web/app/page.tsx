@@ -4,6 +4,7 @@ import {
   Award,
   BarChart3,
   Bot,
+  Check,
   Clock,
   Database,
   GraduationCap,
@@ -371,17 +372,18 @@ export default async function HomePage() {
             <div className="home-advantages-head">
               <div>
                 <span className="eyebrow eyebrow-dark">Nos atouts</span>
-                <h2 className="section-title">Les fondamentaux d'un organisme de formation premium, lisible et moderne.</h2>
-                <p className="section-copy">
-                  Le site n'expose pas seulement un catalogue : il structure une offre pédagogique, commerciale et LMS capable de monter en maturité.
-                </p>
+                <h2 className="section-title home-advantages-title">
+                  Les fondamentaux d&apos;un organisme de formation premium, lisible et moderne.
+                </h2>
               </div>
-              <div className="home-advantage-tabs" aria-hidden="true">
-                {advantageTabs.map((tab, index) => (
-                  <span key={tab.label} className={`home-advantage-tab${index === 0 ? " is-active" : ""}`}>
-                    {tab.label}
-                  </span>
-                ))}
+              <div className="home-advantages-head-aside">
+                <p className="section-copy">
+                  Le site n&apos;expose pas seulement un catalogue : il structure une offre pédagogique,
+                  commerciale et LMS capable de monter en maturité au fil du temps.
+                </p>
+                <Link href="/methodologie" className="button button-secondary">
+                  Découvrir notre méthodologie <ArrowRight size={16} strokeWidth={2} />
+                </Link>
               </div>
             </div>
 
@@ -462,14 +464,26 @@ export default async function HomePage() {
               </div>
             </div>
 
-            <div className="home-interest-mosaic">
-              <div className="home-interest-mosaic-card home-interest-mosaic-media" />
-              <div className="home-interest-mosaic-card home-interest-mosaic-stat">
-                <strong>{upcomingCount}+</strong>
-                <span>prochaines sessions visibles</span>
+            <div className="home-interest-panel">
+              <span className="home-interest-panel-label">Un socle, plusieurs modules</span>
+              <ul className="home-interest-features">
+                {[
+                  "Catalogue de formations structuré",
+                  "Devis & tunnel commercial",
+                  "Inscription en ligne",
+                  "Espace client : demandes, validations, documents",
+                  "Espaces LMS apprenant & formateur"
+                ].map((feature) => (
+                  <li key={feature}>
+                    <Check size={16} strokeWidth={2.5} />
+                    <span>{feature}</span>
+                  </li>
+                ))}
+              </ul>
+              <div className="home-interest-panel-foot">
+                <strong>{trainings.length}</strong>
+                <span>formations déjà disponibles dans le socle</span>
               </div>
-              <div className="home-interest-mosaic-card home-interest-mosaic-media-alt" />
-              <div className="home-interest-mosaic-card home-interest-mosaic-gradient" />
             </div>
           </div>
         </div>

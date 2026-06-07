@@ -3869,3 +3869,98 @@ html[data-motion="on"] .reveal.is-visible {
   .bx-hero-search-submit { width: 100%; justify-content: center; }
   .bx-hero-kpis { grid-template-columns: 1fr 1fr; }
 }
+
+/* ═══ Projet entreprise band : glass module list ════════════════ */
+.home-interest-panel {
+  align-self: stretch;
+  display: grid;
+  gap: 16px;
+  align-content: start;
+  padding: 26px;
+  border-radius: 26px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  backdrop-filter: blur(14px);
+  box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.16);
+}
+.home-interest-panel-label {
+  color: rgba(255, 255, 255, 0.66);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.home-interest-features {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 12px;
+}
+.home-interest-features li {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 11px;
+  align-items: start;
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 0.92rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+.home-interest-features li svg {
+  margin-top: 1px;
+  width: 22px;
+  height: 22px;
+  padding: 3px;
+  border-radius: 999px;
+  color: #0e1730;
+  background: var(--accent);
+  flex: 0 0 auto;
+}
+.home-interest-panel-foot {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-top: 2px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+}
+.home-interest-panel-foot strong {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  color: #fff;
+  line-height: 1;
+}
+.home-interest-panel-foot span {
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.82rem;
+  line-height: 1.4;
+}
+
+/* ═══ Nos atouts : wider heading + aside (fake tabs removed) ═════ */
+.home-advantages-head {
+  grid-template-columns: 1.1fr 0.9fr;
+  align-items: end;
+}
+.home-advantages-title {
+  max-width: 20ch;
+}
+.home-advantages-head-aside {
+  display: grid;
+  gap: 16px;
+  align-content: end;
+  justify-items: start;
+}
+.home-advantages-head-aside .section-copy {
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .home-advantages-head {
+    grid-template-columns: 1fr;
+    align-items: start;
+  }
+  .home-advantages-head-aside {
+    align-content: start;
+  }
+}

@@ -4108,3 +4108,23 @@ html[data-motion="on"] .reveal.is-visible {
   .bx-video-hero-media { display: none; }
   .bx-video-hero { background: linear-gradient(135deg, #0d1730 0%, #14213f 55%, #1a2644 100%); }
 }
+
+/* ═══ Ressources : feature pleine hauteur (plus d'espace vide) ═══ */
+.home-resource-feature {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.home-resource-feature .home-resource-feature-media {
+  flex: 1 1 auto;
+  min-height: 240px;
+}
+.home-resource-feature .home-resource-feature-body {
+  flex: 0 0 auto;
+}
+
+@media (max-width: 900px) {
+  .home-resource-feature .home-resource-feature-media {
+    min-height: 200px;
+  }
+}

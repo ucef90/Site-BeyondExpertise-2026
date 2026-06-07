@@ -3495,6 +3495,21 @@ html[data-motion="on"] .reveal.is-visible {
 }
 .home-logos-track .home-logo-item { flex: 0 0 auto; }
 
+/* Real client references : brand icon + name */
+.home-logo-item-img {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 11px 20px;
+}
+.home-logo-item-img img {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+  border-radius: 5px;
+  flex: 0 0 auto;
+}
+
 /* ── Trust / accent icons : subtle life ─────────────────────── */
 .home-trust-icon-accent {
   animation: be-pulse-ring 3.2s ease-out infinite;

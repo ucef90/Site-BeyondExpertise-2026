@@ -19,6 +19,7 @@ import {
 } from "lucide-react";
 import { FAQ } from "@/components/faq";
 import { TrainingCard } from "@/components/training-card";
+import { ClientLogo } from "@/components/client-logo";
 import { faqItems } from "@/lib/data";
 import { getHomepageFeaturedTrainings, getTrainings, groupTrainingsByPremiumCategory } from "@/lib/api";
 
@@ -85,7 +86,14 @@ const advantageTabs = [
 ];
 
 const clientLogos = [
-  "BNP Paribas", "Orange", "Renault", "Alten", "IBM", "Société Générale", "Capgemini", "Thales"
+  { name: "BNP Paribas", domain: "bnpparibas.com" },
+  { name: "Orange", domain: "orange.com" },
+  { name: "Renault", domain: "renault.com" },
+  { name: "Alten", domain: "alten.com" },
+  { name: "IBM", domain: "ibm.com" },
+  { name: "Société Générale", domain: "societegenerale.com" },
+  { name: "Capgemini", domain: "capgemini.com" },
+  { name: "Thales", domain: "thalesgroup.com" }
 ];
 
 export default async function HomePage() {
@@ -343,9 +351,12 @@ export default async function HomePage() {
             <div className="home-logos-marquee">
               <div className="home-logos-track">
                 {[...clientLogos, ...clientLogos].map((logo, index) => (
-                  <div key={`${logo}-${index}`} className="home-logo-item" aria-hidden={index >= clientLogos.length}>
-                    {logo}
-                  </div>
+                  <ClientLogo
+                    key={`${logo.name}-${index}`}
+                    name={logo.name}
+                    domain={logo.domain}
+                    decorative={index >= clientLogos.length}
+                  />
                 ))}
               </div>
             </div>
